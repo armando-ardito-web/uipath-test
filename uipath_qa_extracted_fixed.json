@@ -252,7 +252,7 @@
         ]
     },
     {
-        "domanda": "Question 22: From the lowest priority to the highest priority, what is the correct priority sequence of the Log Levels for UiPath Robots?  NOTE: Drag and drop the lowest priority level to the top of the list and repeat until the highest priority level appears at the bottom of the list. Correct Answer: Question 23. (Single Select) A developer configured the Activity Project Settings for a UI automation and a Click activity in the project shown in the following exhibits:  If the target element is not found during execution in Debug mode, how long will it take until an error is thrown?",
+        "domanda": "Question 23: A developer configured the Activity Project Settings for a UI automation and a Click activity in the project shown in the following exhibits:  If the target element is not found during execution in Debug mode, how long will it take until an error is thrown?",
         "risposte_possibili": [
             "A: 10 seconds",
             "B: 15 seconds",
@@ -420,7 +420,7 @@
         ]
     },
     {
-        "domanda": "Question 37: Based on the exhibit that represents the \"Deadline\" in the yyyy-mm-dd format, what is the correct sequence in which the Queue Items are processed by a single Performer workflow? NOTE: Drag the Queue Item Name found on the “Left” and drop on the correct Process Order found on the “Right” Correct Answer:  Question 38. (Single Select) A developer published a library component for use within UiPath Studio. In order to successfully add this library as a dependency to the project, what should be used?",
+        "domanda": "Question 38: A developer published a library component for use within UiPath Studio. In order to successfully add this library as a dependency to the project, what should be used?",
         "risposte_possibili": [
             "A: Invoke Com Method activity",
             "B: Imports Panel",
@@ -552,7 +552,7 @@
         ]
     },
     {
-        "domanda": "Question 49: In a Robotic Enterprise (RE) Framework project that is connected to Orchestrator, what is the correct sequence of steps if an application exception occurs on a Queue Item in the Process Transaction state? NOTE: Drag the Description found on the “Left” and drop on the correct Step Sequence found on the “Right”. Correct Answer:  Question 50. (Single Select) A developer is working on an automation. The automated process must log into Citrix and click on the \"Generate Shipment Details\" button. Ideally, this generates a table of shipping records. If the generated table displays only the header row and no data is available, then it should be marked as an exception since the data is incomplete. What is this type of exception?",
+        "domanda": "Question 50: A developer is working on an automation. The automated process must log into Citrix and click on the \"Generate Shipment Details\" button. Ideally, this generates a table of shipping records. If the generated table displays only the header row and no data is available, then it should be marked as an exception since the data is incomplete. What is this type of exception?",
         "risposte_possibili": [
             "A: BusinessRuleException",
             "B: NullReferenceException",
@@ -696,11 +696,11 @@
         ]
     },
     {
-        "domanda": "Question 62: What is the slowest method of reading text? Options are :",
+        "domanda": "Question 63: Which of the following SQL statements can be executed by using the activity called Execute Non Query? Options are :",
         "risposte_possibili": [
-            "A: OCR",
-            "B: Native",
-            "C: Full Text\nCorrect Answer: A\nQuestion 63. (Multi Select)\nWhich of the following SQL statements can be executed by using the activity called Execute Non\nQuery?\nOptions are :\nA:  Insert\nB:  Update\nC:  Select",
+            "A: Insert",
+            "B: Update",
+            "C: Select",
             "D: Delete"
         ],
         "risposta_corretta": [
@@ -708,11 +708,11 @@
         ]
     },
     {
-        "domanda": "Question 64: Can you store a Selector in a variable? Options are :",
+        "domanda": "Question 66: How can a robot start an application in Citrix? Options are :",
         "risposte_possibili": [
-            "A: Yes, in a UiElement variable.",
-            "B: Yes, in a String variable",
-            "C: No\nCorrect Answer: B\nQuestion 65. (Single Select)\nCan you run multiple instances of the same process, in parallel?\nOptions are :\nA:  Yes, on the same robot.\nB:  No\nC:  Yes, on different robots.\nCorrect Answer: C\nQuestion 66. (Multi Select)\nHow can a robot start an application in Citrix?\nOptions are :\nA:  By using a command line.\nB:  By double clicking on a Desktop icon.\nC:  By using an Open Application activity.",
+            "A: By using a command line.",
+            "B: By double clicking on a Desktop icon.",
+            "C: By using an Open Application activity.",
             "D: By defining a shortcut key for the application and then triggering the app with a Send Hotkey\nactivity."
         ],
         "risposta_corretta": [
@@ -720,11 +720,11 @@
         ]
     },
     {
-        "domanda": "Question 67: What status does a job have when a schedule is triggered in Orchestrator, but there are no available robots to execute it? Options are :",
+        "domanda": "Question 68: Is it possible to reprocess a transaction in a Queue after its failure due to an application exception? Options are :",
         "risposte_possibili": [
-            "A: In progress",
-            "B: Pending",
-            "C: New\nCorrect Answer: B\nQuestion 68. (Multi Select)\nIs it possible to reprocess a transaction in a Queue after its failure due to\nan application exception?\nOptions are :\nA:  No, transactions cannot be processed again if they fail.\nB:  Yes, if the Auto-Retry property of the Queue is enabled.\nC:  Only transactions that failed due to a business exception can be reprocessed.",
+            "A: No, transactions cannot be processed again if they fail.",
+            "B: Yes, if the Auto-Retry property of the Queue is enabled.",
+            "C: Only transactions that failed due to a business exception can be reprocessed.",
             "D: Yes, it can be retried manually on the Transactions page."
         ],
         "risposta_corretta": [
@@ -732,11 +732,11 @@
         ]
     },
     {
-        "domanda": "Question 69: What is the difference between a Click activity whose SimulateClick property is checked and  another one with the same property unchecked? Options are :",
+        "domanda": "Question 75: Which of the following SQL statements can be executed by using the activity called Execute Non Query? Options are :",
         "risposte_possibili": [
-            "A: The activity with an enabled SimulateClick flag does not click the target element, it just\nsimulates the action.",
-            "B: The activity with the SimulateClick flag unchecked moves the mouse cursor over the target\nelement, while the one with the flag set does not move the mouse cursor.",
-            "C: There is no difference - both can be used in same scenarios.\nCorrect Answer: B\nQuestion 70. (Single Select)\nIf a large item collection is processed using For Each, which activity enables you to efficiently\nexit the loop after a specific moment?\nOptions are :\nA:  No activity can be used. Instead, you have to create a Boolean variable based on which the\nFor Each loop is broken\nB:  The \"Break\" activity is the most suitable in For Each\nC:  A While loop should be used instead of For Each\nCorrect Answer: B\nQuestion 71. (Single Select)\nIn the UiPath Robotic Enterprise Framework template, in the Get Transaction Data state of the\nMain workflow, what happens before the next transaction item is retrieved?\nOptions are :\nA:  We check if the previous transaction has been completed\nB:  We check if a kill signal was sent from Orchestrator\nC:  We check if a stop signal was sent from Orchestrator\n\nCorrect Answer: C\nQuestion 72. (Single Select)\nOne of the steps in your process is to authenticate on a web application. How can you check if\nthe login succeeded or not?\nOptions are :\nA:  Place the login activities inside a Try-Catch block. An exception is thrown in case a login\nproblem occurs.\nB:  Use an Element Exist activity to check whether the login succeeded by searching for an\nelement that is only displayed in that case.\nC:  Check the return value of the Login activity.\nCorrect Answer: B\nQuestion 73. (Multi Select)\nWhich of the following statements are true? Select all the options that apply.\nOptions are :\nA:  You cannot use a recorder in a Citrix environment\nB:  The recorder is used to create a skeleton for the UI automation\nC:  The Desktop recorder generates partial selectors\nCorrect Answer: B, C\nQuestion 74. (Single Select)\nWhat is the slowest method of reading text?\n\nOptions are :\nA:  Native\nB:  FullText.\nC:  OCR\nCorrect Answer: C\nQuestion 75. (Multi Select)\nWhich of the following SQL statements can be executed by using the activity called Execute Non\nQuery?\nOptions are :\nA:  Insert\nB:  Update\nC:  Select",
+            "A: Insert",
+            "B: Update",
+            "C: Select",
             "D: Delete"
         ],
         "risposta_corretta": [
@@ -744,23 +744,23 @@
         ]
     },
     {
-        "domanda": "Question 76: Why is renaming activities considered to be one of the best practices? Options are :",
+        "domanda": "Question 78: Which of the following technologies can be used for background automation? Options are :",
         "risposte_possibili": [
-            "A: In case of an exception, to be able to find its source activity",
-            "B: To be able to understand the process logic without expanding each sequence or invoked\nworkflow.",
-            "C: To easily understand the high-level business logic from a workflow.\nCorrect Answer: A, B, C\n\nQuestion 77. (Single Select)\nConsider three GenericValue variables, var1 with the default value of \"3 apples\", var2 with the\ndefault value of \"5 mangos\", and the result, which is the output of an Assign Activity with the\nvar1 + var2 expression. What is the value of the resulting variable\nOptions are :\nA:  Null\nB:  \"8 fruits\"\nC:  8",
-            "D: Error: \"Input string was not in a correct format\"\nE:  \"3 apples5 mangos\"\nCorrect Answer: E\nQuestion 78. (Multi Select)\nWhich of the following technologies can be used for background automation?\nOptions are :\nA:  The Click activity with the Simulate Click flag checked.\nB:  Data Scraping.\nC:  The Full Text method of Screen Scraping.\nD:  Type into activity with SendWindowMessages flag checked."
+            "A: The Click activity with the Simulate Click flag checked.",
+            "B: Data Scraping.",
+            "C: The Full Text method of Screen Scraping.",
+            "D: Type into activity with SendWindowMessages flag checked."
         ],
         "risposta_corretta": [
             "A"
         ]
     },
     {
-        "domanda": "Question 79: Where can we see the logs generated by running robots? Options are :",
+        "domanda": "Question 82: What is the relation between environments and provisioned robots?  Options are :",
         "risposte_possibili": [
-            "A: In the Output panel.",
-            "B: In the local Logs folder.",
-            "C: In the Orchestrator logs.\nCorrect Answer: A, B, C\nQuestion 80. (Multi Select)\nIs it possible to write to a text file without using the Write Text File activity?\nOptions are :\nA:  No\nB:  Yes, using the Invoke Method activity\nC:  Yes, with the Invoke Power Shell activity\nCorrect Answer: B, C\nQuestion 81. (Single Select)\nWhat types of assets can be stored in Orchestrator?\nOptions are :\nA:  Array, Datatable, Bool, String\nB:  Bool, String, Integer, Credential\nC:  Integer, Password, GenericValue, String\nCorrect Answer: B\nQuestion 82. (Multi Select)\nWhat is the relation between environments and provisioned robots?\n\nOptions are :\nA:  One robot can be assigned to multiple environments.\nB:  One robot can be assigned to a single environment only.\nC:  An environment can contain multiple robots.",
+            "A: One robot can be assigned to multiple environments.",
+            "B: One robot can be assigned to a single environment only.",
+            "C: An environment can contain multiple robots.",
             "D: An environment can contain a single robot only."
         ],
         "risposta_corretta": [
@@ -780,11 +780,11 @@
         ]
     },
     {
-        "domanda": "Question 84: While automating an installation wizard, a pop-up window may or may not appear. What can you use to close the window without stopping the workflow? Options are :",
+        "domanda": "Question 85: Which Queue Item properties can be used to control the order in which the items are processed? Options are :",
         "risposte_possibili": [
-            "A: Use a Click activity inside a Try Catch activity.",
-            "B: Use a Click activity with the ContinueOnError property set to True.",
-            "C: Use a Click activity and set its TimeoutMS property to 30.\nCorrect Answer: A, B\nQuestion 85. (Multi Select)\nWhich Queue Item properties can be used to control the order in which the items are\nprocessed?\nOptions are :\nA:  ItemInformation\nB:  Priority\nC:  Deadline",
+            "A: ItemInformation",
+            "B: Priority",
+            "C: Deadline",
             "D: Postpone"
         ],
         "risposta_corretta": [
@@ -792,11 +792,11 @@
         ]
     },
     {
-        "domanda": "Question 86: In the UiPath Robotic Enterprise Framework template, in the Main workflow, what is the default type of the TransactionItem variable? Options are :",
+        "domanda": "Question 88: Which of the scraping methods can get you the hidden text in the element? Options are :",
         "risposte_possibili": [
-            "A: String",
-            "B: QueueItem",
-            "C: Object\nCorrect Answer: B\nQuestion 87. (Single Select)\n\nPractical exam questions is different for different people, so solution cant be shared but as i\nhave promised that i will help in practical exam, You can mail me at\nlearnautomationr@gmail.com and i will help you to clear practical exam also.\nOptions are :\nA:  Understood\nB:  Answer :Understood\nCorrect Answer: A\nQuestion 88. (Single Select)\nWhich of the scraping methods can get you the hidden text in the element?\nOptions are :\nA:  All of the above\nB:  Native\nC:  OCR",
+            "A: All of the above",
+            "B: Native",
+            "C: OCR",
             "D: FullText"
         ],
         "risposta_corretta": [
@@ -816,11 +816,11 @@
         ]
     },
     {
-        "domanda": "Question 90: How should exceptions be handled? Select all the options that apply. Options are :",
+        "domanda": "Question 91: How can you delay the Automatic Recording? Options are :",
         "risposte_possibili": [
-            "A: By using Try Catch activities inside the workflow for unexpected application exceptions.",
-            "B: UiPath handles exceptions by default.",
-            "C: By validating data using conditional blocks for business exceptions.\nCorrect Answer: A, C\nQuestion 91. (Single Select)\nHow can you delay the Automatic Recording?\nOptions are :\nA:  By hitting the Escape key\nB:  By right clicking\nC:  Not possible",
+            "A: By hitting the Escape key",
+            "B: By right clicking",
+            "C: Not possible",
             "D: By hitting the F2 key"
         ],
         "risposta_corretta": [
@@ -840,11 +840,11 @@
         ]
     },
     {
-        "domanda": "Question 93: What robots can be selected when you start a job from Orchestrator? Options are :",
+        "domanda": "Question 95: One of the actions below is not required when starting processes with UiPath Orchestrator. Options are :",
         "risposte_possibili": [
-            "A: Any robot in the same environment as the process to be executed.",
-            "B: Any robot you have access to according to your role permissions.",
-            "C: Any robot provisioned in Orchestrator.\nCorrect Answer: A\nQuestion 94. (Single Select)\nWhat is an argument?\nOptions are :\nA:  A variable\nB:  An input/output parameter of the workflow\nC:  A variable type\nCorrect Answer: B\nQuestion 95. (Single Select)\nOne of the actions below is not required when starting processes with UiPath Orchestrator.\nOptions are :\nA:  Starting a job, which is the execution of the process\n\nB:  Registering robots to Orchestrator\nC:  Creating an environment containing the robot",
+            "A: Starting a job, which is the execution of the process",
+            "B: Registering robots to Orchestrator",
+            "C: Creating an environment containing the robot",
             "D: Creating a queue in Orchestrator\nE:  Creating a process with the published package and environment\nF:  Publishing projects from UiPath Studio"
         ],
         "risposta_corretta": [
@@ -852,11 +852,11 @@
         ]
     },
     {
-        "domanda": "Question 96: Which of the following are considered best practices? Select all the options that apply. Options are :",
+        "domanda": "Question 99: What recording wizard would you use to automate UI interactions in an application that does not offer support for selectors? Options are :",
         "risposte_possibili": [
-            "A: Keeping environment settings hard coded inside workflows.",
-            "B: Breaking the process into smaller workflows.",
-            "C: Reusing workflows across different projects.\nCorrect Answer: B, C\nQuestion 97. (Single Select)\nDownloading a report from a web application takes a variable amount of time, but a pop-up\nwindow is shown when the download is finished. What should you do to check whether the file\nhas been fully downloaded before continuing the process?\nOptions are :\nA:  Use the On Element Appear activity and indicate the download pop-up window\nB:  Set the WaitForReady property to Complete\nC:  Use the Element Exist activity and indicate the download pop-up window\nCorrect Answer: A\n\nQuestion 98. (Single Select)\nWhich is the best way to delete unreferenced variables?\nOptions are :\nA:  Delete them one by one from the Variables panel. UiPath Studio performs the workflow\nvalidation in real time, therefore you can see which variable is being used.\nB:  The unreferenced variables do not utilise memory, therefore you do not have to delete them.\nC:  You can manage your variables from the Design panel > Manage Variables > Remove\nUnreferenced.\nCorrect Answer: C\nQuestion 99. (Single Select)\nWhat recording wizard would you use to automate UI interactions in an application that does not\noffer support for selectors?\nOptions are :\nA:  Basic Recording\nB:  Citrix Recording\nC:  Web Recording",
+            "A: Basic Recording",
+            "B: Citrix Recording",
+            "C: Web Recording",
             "D: Desktop Recording"
         ],
         "risposta_corretta": [
@@ -864,11 +864,11 @@
         ]
     },
     {
-        "domanda": "Question 100: What happens if the result of a transaction is not set? Options are :",
+        "domanda": "Question 102: How can you find all anchor elements in a web page? Options are :",
         "risposte_possibili": [
-            "A: The status is \"In Progress\" for 24 hours, and then it switches to Abandoned",
-            "B: It is automatically set to Failed after 24 hours",
-            "C: It is automatically set to Successful after 24 hours\nCorrect Answer: A\nQuestion 101. (Single Select)\nWhere can you find the value written by the Write Line activity?\nOptions are :\nA:  At console\nB:  In a variable\nC:  In the Output pane\nCorrect Answer: C\nQuestion 102. (Single Select)\nHow can you find all anchor elements in a web page?\nOptions are :\nA:  Using the Find Relative Element Activity\nB:  Using the Get Ancestor Activity\nC:  Using the Find Element Activity",
+            "A: Using the Find Relative Element Activity",
+            "B: Using the Get Ancestor Activity",
+            "C: Using the Find Element Activity",
             "D: Using the Find Children Activity"
         ],
         "risposta_corretta": [
@@ -900,11 +900,11 @@
         ]
     },
     {
-        "domanda": "Question 105: What do the Items in the Orchestrator queues consist of? Select all the options that apply. Options are :",
+        "domanda": "Question 122: In the UiPath Robotic Enterprise Framework template, in the Main workflow, the State Machine includes the following states: Options are :",
         "risposte_possibili": [
-            "A: Input data for the processes executed by the robots",
-            "B: Processes to be executed by the robots",
-            "C: Jobs to be executed by the robots\nCorrect Answer: A\n\nQuestion 106. (Single Select)\nThe best way of managing variable values within a workflow, so that they can be shared on\ndifferent robots and environments is:\nOptions are :\nA:  Using excel config files\nB:  Using Json config files.\nC:  Using assets defined in Orchestrator.\nCorrect Answer: C\nQuestion 107. (Single Select)\nIn which workflow in the UiPath Robotic Enterprise Framework template is the\nTransactionNumber global variable incremented by default?\nOptions are :\nA:  Process workflow\nB:  GetTransactionData workflow\nC:  SetTransactionStatus workflow\nCorrect Answer: C\nQuestion 108. (Multi Select)\nHow can you improve a selector?\nOptions are :\nA:  By using intermediate containers for a better matching of the UI element.\nB:  By adding the absolute position of the elements to the selector.\nC:  By replacing the dynamic parts of an attribute with wildcards.\n\nCorrect Answer: A, C\nQuestion 109. (Multi Select)\nWhich of the following are required to have efficient execution of automation projects?\nOptions are :\nA:  Recovery abilities\nB:  Effective logging mechanisms\nC:  Proper exception handling\nCorrect Answer: A, B, C\nQuestion 110. (Single Select)\nIs there any way to hide the execution of one activity in the logs?\nOptions are :\nA:  Yes, by changing the minLevel property of the \"Execution\" logger from NLog.config file.\nB:  No, but the logs can be manually edited.\nC:  Yes, by checking the Private property of the activity that is to be hidden.\nCorrect Answer: C\nQuestion 111. (Multi Select)\nWhich activity can be used if you want to test whether a condition evaluates to true or false?\nOptions are :\nA:  Flow Decision activity\n\nB:  If activity\nC:  For Each activity\nCorrect Answer: A, B\nQuestion 112. (Multi Select)\nWhere can the logging level of a robot be changed from?\nOptions are :\nA:  Orchestrator, in the Edit Robot section, the Settings tab.\nB:  The robot settings, which are accessed via the UiPath Robot icon in the System tray.\nC:  You can not change the logging level.\nCorrect Answer: A, B\nQuestion 113. (Single Select)\nIn a Try Catch activity, how many times is the Finally section executed if no error occurs in the\nTry section?\nOptions are :\nA:  Once\nB:  Zero\nC:  The Finally section is executed only when the Catch section is executed.\nCorrect Answer: A\nQuestion 114. (Single Select)\nWhat is the Attach Window activity used for?\n\nOptions are :\nA:  To specify the browser container you will be working with\nB:  Specifies that you are working with a java window\nC:  To specify the top-level window container you will be working with\nCorrect Answer: C\nQuestion 115. (Single Select)\nWhich statement about the UiPath Robotic Enterprise Framework template is false?\nOptions are :\nA:  The framework can be used only if you get the input data from the UiPath server queues.\nB:  The framework has a robust exception handling scheme and event logging.\nC:  The framework is meant to be a template that helps the user design processes.\nCorrect Answer: A\nQuestion 116. (Single Select)\nWhat type of Output variable do all Get Mail activities return? (POP3, IMAP, Outlook, Exchange)\nOptions are :\nA:  List\nB:  List\nC:  MailMessage\nCorrect Answer: B\n\nQuestion 117. (Single Select)\nIn the UiPath Robotic Enterprise Framework template, if a System Error is encountered in the\nInit state of the Main workflow, which state is executed next?\nOptions are :\nA:  End Process\nB:  Get Transaction Data\nC:  Init\nCorrect Answer: A\nQuestion 118. (Single Select)\nWhen requesting a work item from Orchestrator Queues using the Get Transaction Item activity,\nyou need to specify the following:\nOptions are :\nA:  The name of the Queue and the number of items to be retrieved\nB:  The name of the Queue, the number of items, and a filtering expression\nC:  The name of the Queue which contains that specific work item\nCorrect Answer: C\nQuestion 119. (Multi Select)\nIn UiPath Robotic Enterprise Framework, the value of MaxRetryNumber in the Config.xlsx file\nshould be set to a number greater than 0 to enable the retry mechanism in the following cases:\nOptions are :\nA:  Get data from UiPath Orchestrator queues with Auto Retry disabled.\nB:  Get data from spreadsheets, databases, email, web API.\n\nC:  Do not work with UiPath Orchestrator queues.\nCorrect Answer: B, C\nQuestion 120. (Single Select)\nWhat activity can you use to get a column value from a specific row of a DataTable?\nOptions are :\nA:  Row Read Cell\nB:  Get Row Item\nC:  Remove Data\nCorrect Answer: B\nQuestion 121. (Single Select)\nWhat is the safest way to close an application?\nOptions are :\nA:  By using the Process Name property of the Kill Process Activity\nB:  By sending the Alt + F4 hotkeys\nC:  By using the Close Application activity\nCorrect Answer: C\nQuestion 122. (Multi Select)\nIn the UiPath Robotic Enterprise Framework template, in the Main workflow, the State Machine\nincludes the following states:\nOptions are :\n\nA:  Init state\nB:  Set Transaction State\nC:  Get transaction data state",
+            "A: Init state",
+            "B: Set Transaction State",
+            "C: Get transaction data state",
             "D: End Process State\nE:  Process Transaction State"
         ],
         "risposta_corretta": [
@@ -912,11 +912,11 @@
         ]
     },
     {
-        "domanda": "Question 123: After adding an Invoke Workflow File activity and selecting the workflow to invoke, you need to: Options are :",
+        "domanda": "Question 139: What is the best way of scraping a large, selectable text in a Citrix environment? Options are :",
         "risposte_possibili": [
-            "A: Click Import Arguments, and then bind the arguments to the local variables or to some\ndefault values",
-            "B: Click Edit Arguments, and then bind the arguments to the local variables or to some default\nvalues\nCorrect Answer: A\nQuestion 124. (Single Select)\nWhich one of the statements below regarding the GetAppCredentials workflow included in\nUiPath Robotic Enterprise Framework is true?\nOptions are :\nA:  It first requests the credential from user.\nB:  It first tries to fetch a credential from Orchestrator.",
-            "C: It first tries to fetch a credential from the Windows Credential Manager.\nCorrect Answer: B\n\nQuestion 125. (Single Select)\nHow can you dynamically change parts of a selector?\nOptions are :\nA:  By using variables to replace the dynamic parts\nB:  You cannot have dynamic components in a selector.\nC:  By adding parameters from the Properties tab.\nCorrect Answer: A\nQuestion 126. (Single Select)\nWhat layout should be used for UI navigation and data processing?\nOptions are :\nA:  State Machine\nB:  Sequence\nC:  Flowchart\nCorrect Answer: B\nQuestion 127. (Single Select)\nWhen should the Simulate Type/Click property be used?\nOptions are :\nA:  Only when background automation is required\nB:  Whenever supported by the target application\nC:  Only for testing purposes\nCorrect Answer: B\n\nQuestion 128. (Multi Select)\nHow can you fine tune a selector?\nOptions are :\nA:  Replacing variable attribute parts with *\nB:  Adding all parents\nC:  Making sure you have an idx attribute\nCorrect Answer: A, B\nQuestion 129. (Single Select)\nWhat status does a job have when a schedule is triggered in Orchestrator, but there are no\navailable robots to execute it?\nOptions are :\nA:  In progress\nB:  Pending\nC:  New\nCorrect Answer: B\nQuestion 130. (Single Select)\nWhich emails are deleted if you use Get IMAP Mail Messages with the DeleteMessages property\nset to true?\nOptions are :\nA:  Only the emails that were marked as previously read.\nB:  There is no DeleteMessages property for the Get IMAP Mail Message activity. This option is\navailable only for Get Exchange Mail Message.\n\nC:  The ones in the list that is retrieved by the Get IMAP Mail Messages activity.\nCorrect Answer: C\nQuestion 131. (Single Select)\nThis is a reliable selector for a dynamic web page: webctrl idx=''144'' tag=''IMG''/\nOptions are :\nA:  True\nB:  False\nCorrect Answer: B\nQuestion 132. (Single Select)\nIn the UiPath Robotic Enterprise Framework template, to enable the retry mechanism without\nusing Queues, what should the value of MaxRetryNumber be set to?\nOptions are :\nA:  0\nB:  Any value greater than 0\nC:  Any value greater than 2\nCorrect Answer: B\nQuestion 133. (Multi Select)\nWhat kind of workflow should you create to define business rules?\nOptions are :\n\nA:  Sequence\nB:  Flowchart\nC:  State machine\nCorrect Answer: A, B\nQuestion 134. (Single Select)\nWhat is the best practice to stop an ongoing job in Orchestrator?\nOptions are :\nA:  By terminating it.\nB:  By cancelling it and using a Should Stop activity inside the workflow.\nC:  The process can only stop on its own.\nCorrect Answer: A\nQuestion 135. (Single Select)\nIn the UiPath Robotic Enterprise Framework template, if a System Error is encountered in the\nProcess Transaction state of the Main workflow, which state is executed next?\nOptions are :\nA:  Get Transaction Data\nB:  Init\nC:  End Process\nCorrect Answer: B\nQuestion 136. (Single Select)\n\nHow does the Anchor Base activity work?\nOptions are :\nA:  It searches for an UiElement at a fixed anchor position.\nB:  It searches for an UiElement using a relative coordinate position.\nC:  It searches for an UiElement by using another UiElement as anchor.\nCorrect Answer: C\nQuestion 137. (Multi Select)\nWhat happens if you try to end the execution of a job by clicking the Kill/Terminate button in\nUipath Orchestrator?\nOptions are :\nA:  The execution process is killed.\nB:  The execution is not impacted if no Should Stop activity has been included in the workflow in\nStudio.\nC:  The job state is changed to Canceled/Stopped, even if no Should Stop activity was used.\nCorrect Answer: A, C\nQuestion 138. (Multi Select)\nWhat are the functions of the Outline panel?\nOptions are :\nA:  It shows the structure of the workflow\nB:  It shows the execution result of the workflow\nC:  If the Activities are properly named, it can be used to search and select specific Activities\nused inside the workflow\nCorrect Answer: A, C\n\nQuestion 139. (Single Select)\nWhat is the best way of scraping a large, selectable text in a Citrix environment?\nOptions are :\nA:  Use a Get Full Text activity.\nB:  Select the entire text and copy it with the Copy Selected Text activity.\nC:  Use the Microsoft OCR engine.",
+            "A: Use a Get Full Text activity.",
+            "B: Select the entire text and copy it with the Copy Selected Text activity.",
+            "C: Use the Microsoft OCR engine.",
             "D: Use the Google OCR engine."
         ],
         "risposta_corretta": [
@@ -924,11 +924,11 @@
         ]
     },
     {
-        "domanda": "Question 140: Where should credentials be stored? Select all the options that apply. Options are :",
+        "domanda": "Question 144: The return value of the Get Transaction Item activity is of the following type: Options are :",
         "risposte_possibili": [
-            "A: In Windows Credential Store.",
-            "B: In Orchestrator, as assets.",
-            "C: Directly inside the workflows, as variables.\nCorrect Answer: A, C\nQuestion 141. (Multi Select)\nWhere can you trigger an unattended robot from? Select all the options that apply.\nOptions are :\nA:  The UiPath Robot icon in the system tray\nB:  UiPath Studio\nC:  Remotely, from Orchestrator\n\nCorrect Answer: A, C\nQuestion 142. (Multi Select)\nHow can you provide more details to explain the purpose of the activities in a workflow?\nOptions are :\nA:  By adding activity Annotations.\nB:  By using a Comment Out activity.\nC:  By using the Comment activity.\nCorrect Answer: A, C\nQuestion 143. (Single Select)\nHow can you pass data between workflows?\nOptions are :\nA:  By using arguments.\nB:  By using variables.\nC:  By using a pipe.\nCorrect Answer: A\nQuestion 144. (Single Select)\nThe return value of the Get Transaction Item activity is of the following type:\nOptions are :\nA:  String\n\nB:  List\nC:  Object",
+            "A: String",
+            "B: List",
+            "C: Object",
             "D: QueueItem"
         ],
         "risposta_corretta": [
@@ -936,11 +936,11 @@
         ]
     },
     {
-        "domanda": "Question 145: When should the \"Add Log Fields\" activity be used? Options are :",
+        "domanda": "Question 157: What is the robot able to do when the Full Text scraping method is used? Options are :",
         "risposte_possibili": [
-            "A: When a log message with a maximum number of five visible fields needs to be generated",
-            "B: When the standard log message has to be customized by adding new fields to it",
-            "C: When logs need to be enabled\nCorrect Answer: B\nQuestion 146. (Multi Select)\nWhich of the following statements related to Orchestrator are true?\nOptions are :\nA:  A robot can execute many different jobs at the same time.\nB:  Robots can be assigned to multiple environments.\nC:  A robot can execute many different jobs one after the other.\nCorrect Answer: B, C\nQuestion 147. (Multi Select)\nIn the UiPath Robotic Enterprise Framework template, what should be the outcome of the\n\nProcess Transaction state of the Main workflow when the application loops back to the Get\nTransaction Item state?\nOptions are :\nA:  Application exception\nB:  Business rule exception\nC:  Success\nCorrect Answer: B, C\nQuestion 148. (Single Select)\nWhat is the best way of restricting the access of a person to a limited number of pages in\nOrchestrator?\nOptions are :\nA:  By changing the rights of the Administrator to the desired state.\nB:  By creating a different account and role for that person. When creating a new role,\nrestrictions can be applied.\nC:  That option does not exist. Everyone is able to see everything\nCorrect Answer: B\nQuestion 149. (Multi Select)\nWhich statements are true regarding the Write Line and the Log Message activities?\nOptions are :\nA:  By using any of them, you generate traces in the Output panel and also in the log files.\nB:  By using a Log Message activity, you can set different levels of tracing.\nC:  Write Line is just a Log Message set on Trace.\nCorrect Answer: A, B, C\n\nQuestion 150. (Single Select)\nWhat robot state is displayed on the Robots page while a job is being executed?\nOptions are :\nA:  Runnning\nB:  Pending\nC:  Busy\nCorrect Answer: C\nQuestion 151. (Single Select)\nYou want to build a Dispatcher process to populate an Orchestrator Queue for parallel\nprocessing on multiple robots. Which activity should you use to add a queue item for each work\nitem?\nOptions are :\nA:  Add Queue Item\nB:  Add Transaction Item\nC:  Get Transaction Item\nCorrect Answer: B\nQuestion 152. (Multi Select)\nWhat can be used to debug a workflow?\nOptions are :\nA:  Breakpoints\nB:  The Slow Step option.\nC:  Highlighting activities.\n\nCorrect Answer: A, B\nQuestion 153. (Multi Select)\nWhere should you store the environment settings that are prone to changes?\nOptions are :\nA:  Directly inside the workflows, as hard coded values\nB:  In Orchestrator, as assets\nC:  Inside config files (.xml, .json, .xlsx, etc.)\nCorrect Answer: B, C\nQuestion 154. (Single Select)\nWhat can the UiPath Robotic Enterprise Framework template be used as?\nOptions are :\nA:  A consumer of a queue in Orchestrator\nB:  A complete library for front office robots\nC:  The starting point for every automation project\nCorrect Answer: C\nQuestion 155. (Single Select)\nWhich is the best way to navigate to a specific page in a web browser?\nOptions are :\nA:  Use the Type Into activity inside an Attach Browser container\n\nB:  Use the Navigate To activity inside an Attach Browser container\nC:  Use a Type Into activity with a full selector\nCorrect Answer: B\nQuestion 156. (Multi Select)\nWhich of the following are considered best practices?\nOptions are :\nA:  Include a Should Stop activity at the end of the workflow.\nB:  Think about the exceptions that might occur during the execution of the process.\nC:  Start your new sequence with a short annotation meant to explain the purpose of the\nworkflow.\nCorrect Answer: B, C\nQuestion 157. (Multi Select)\nWhat is the robot able to do when the Full Text scraping method is used?\nOptions are :\nA:  Get the entire visible text\nB:  Get font Information (Size color)\nC:  Get editable text",
+            "A: Get the entire visible text",
+            "B: Get font Information (Size color)",
+            "C: Get editable text",
             "D: Get hidden information"
         ],
         "risposta_corretta": [
@@ -960,11 +960,11 @@
         ]
     },
     {
-        "domanda": "Question 159: Which of the following are considered best practices? Options are :",
+        "domanda": "Question 162: In UiPath Robotic Enterprise Framework, what are the transitions of the Init state? Options are :",
         "risposte_possibili": [
-            "A: Deleting disabled code.",
-            "B: Removing unreferenced variables.",
-            "C: Leaving target applications opened.\nCorrect Answer: A, C\nQuestion 160. (Single Select)\nAt the end of the execution of Workflow1, which retrieves some items from a database, is the\ndatabase connection closed automatically?\nOptions are :\nA:  Yes, the connection is closed after 30 seconds.\nB:  The connection has to be closed using a Disconnect activity.\nC:  Only the database admin can decide this aspect.\n\nCorrect Answer: B\nQuestion 161. (Single Select)\nHow should a UiPath developer handle frequent changes in the project files?\nOptions are :\nA:  Old versions of the project files are not relevant\nB:  By creating daily backups of the files\nC:  By using a source control solution, such as SVN, TFS, etc.\nCorrect Answer: B\nQuestion 162. (Multi Select)\nIn UiPath Robotic Enterprise Framework, what are the transitions of the Init state?\nOptions are :\nA:  In the case of Success, the transition is to the Process Transaction state.\nB:  In the case of System Error, the transition is to the End Process state.\nC:  In the case of Success, the transition is to the Get Transaction Data state.",
+            "A: In the case of Success, the transition is to the Process Transaction state.",
+            "B: In the case of System Error, the transition is to the End Process state.",
+            "C: In the case of Success, the transition is to the Get Transaction Data state.",
             "D: In the case of System Error, the transition is to the Init state."
         ],
         "risposta_corretta": [
@@ -972,11 +972,11 @@
         ]
     },
     {
-        "domanda": "Question 163: What happens when a new version of a package is published? Options are :",
+        "domanda": "Question 164: How can you identify a column in a DataTable? Options are :",
         "risposte_possibili": [
-            "A: The old version of the package is overwritten",
-            "B: The processes have to be updated in order for the robots to run the latest version of the\npackage",
-            "C: The processes using the package are automatically updated to the latest version\nCorrect Answer: B\nQuestion 164. (Multi Select)\nHow can you identify a column in a DataTable?\nOptions are :\nA:  By using the column index.\nB:  By using the row index.\nC:  By using the column default value.",
+            "A: By using the column index.",
+            "B: By using the row index.",
+            "C: By using the column default value.",
             "D: By using the column name."
         ],
         "risposta_corretta": [
@@ -1008,11 +1008,11 @@
         ]
     },
     {
-        "domanda": "Question 167: In which workflow in the UiPath Robotic Enterprise Framework template is the retry mechanism implemented? Options are :",
+        "domanda": "Question 172: The String.Format(\"Input = {0} and Output = {0}\", \"1\",\"2\") expression returns the following: Options are :",
         "risposte_possibili": [
-            "A: The Main workflow",
-            "B: The SetTransactionStatus workflow",
-            "C: The GetTransactionData workflow\nCorrect Answer: B\nQuestion 168. (Single Select)\nWhen should an Attended Robot be used? Select the option that applies.\nOptions are :\nA:  When a workflow needs to be modified and corrected.\nB:  When the process might be interrupted by exceptions and errors.\nC:  When the processing of some input data relies on human decision.\n\nCorrect Answer: C\nQuestion 169. (Single Select)\nWhat happens in the Init state of the Main workflow, in the UiPath Robotic Enterprise Framework\ntemplate?\nOptions are :\nA:  The robot reads the configuration file and initializes all the required applications.\nB:  The robot checks if the previous transaction is complete and then starts the next one.\nC:  The transaction items are extracted from the Queue.\nCorrect Answer: C\nQuestion 170. (Single Select)\nWhat happens if the ClickBeforeTyping property in a Type Into activity is selected?\nOptions are :\nA:  Before typing, a click is performed at the current mouse position.\nB:  Before typing, a click is performed on the top left corner of the UiElement.\nC:  Before typing, a click is performed at the center of the UiElement.\nCorrect Answer: C\nQuestion 171. (Single Select)\nWhich is considered to be one of the best practices regarding the process ?nalization?\nOptions are :\n\nA:  Leave the used applications open so that person can Inspect me result\nB:  Leave the application In its initial state, so that we can execute the process again\nC:  Restart the machine so that any potential problem can be fixed\nCorrect Answer: B\nQuestion 172. (Single Select)\nThe String.Format(\"Input = {0} and Output = {0}\", \"1\",\"2\") expression returns the following:\nOptions are :\nA:  An error.\nB:  Input = 1 and Output = 1.\nC:  Input = {1} and Output = {2}.",
+            "A: An error.",
+            "B: Input = 1 and Output = 1.",
+            "C: Input = {1} and Output = {2}.",
             "D: Input = {0} and Output = {0}.\nE:  Input = 1 and Output = 2."
         ],
         "risposta_corretta": [
@@ -1020,11 +1020,11 @@
         ]
     },
     {
-        "domanda": "Question 173: Which of the following types of variables can be defined in UiPath Studio? Options are :",
+        "domanda": "Question 177: When is it recommended to use Desktop recording? Options are :",
         "risposte_possibili": [
-            "A: DataTable",
-            "B: GenericValue.",
-            "C: Number.\nCorrect Answer: A, B\nQuestion 174. (Single Select)\n\nWhat is the purpose of the WaitForReady property in any UiAutomation activity?\nOptions are :\nA:  Specifies to continue executing the remaining activities even if the current activity failed.\nB:  Specifies the amount of time (in milliseconds) to wait for the activity to run before an error is\nthrown.\nC:  Before performing the actions, waits for the target to become ready.\nCorrect Answer: C\nQuestion 175. (Single Select)\nHow can you retrieve the value stored in a Queue Item variable?\nOptions are :\nA:  Use the Deserialize Xml activity\nB:  Use the Deserialize Json activity\nC:  Use the SpecificContent property\nCorrect Answer: C\nQuestion 176. (Single Select)\nHow can a string variable called myString be converted to an all-capitals representation for\nfuture use?\nOptions are :\nA:  By using a Write Line with the Text property set to myString.ToUpper.\nB:  By using an Assign activity with myString on the left side and myString.ToUpper on the right\nside\nCorrect Answer: B\n\nQuestion 177. (Single Select)\nWhen is it recommended to use Desktop recording?\nOptions are :\nA:  When you automate Citrix Applications\nB:  When you automate more steps in the same window\nC:  When you automate one step",
+            "A: When you automate Citrix Applications",
+            "B: When you automate more steps in the same window",
+            "C: When you automate one step",
             "D: When you automate Web pages"
         ],
         "risposta_corretta": [
@@ -1080,11 +1080,11 @@
         ]
     },
     {
-        "domanda": "Question 182: How can you pass DATA between workflows?  Options are :",
+        "domanda": "Question 184: The return value of the Get Transaction Item Activity is of the following type: Options are :",
         "risposte_possibili": [
-            "A: By using arguments",
-            "B: By using variables",
-            "C: By using a pipe\nCorrect Answer: A\nQuestion 183. (Single Select)\nWhich is the best way to navigate to a specific page in a Web Browser?\nOptions are :\nA:  Use the Navigate To activity inside an Attache Browser container\nB:  Use the Type into activity inside an Attach Browser container\nC:  Use a Type into activity with a full selector\nCorrect Answer: A\nQuestion 184. (Single Select)\nThe return value of the Get Transaction Item Activity is of the following type:\nOptions are :\nA:  Object\nB:  String\nC:  QueueItem",
+            "A: Object",
+            "B: String",
+            "C: QueueItem",
             "D: List\nE:  List"
         ],
         "risposta_corretta": [
@@ -1092,11 +1092,11 @@
         ]
     },
     {
-        "domanda": "Question 185: What robot state is display on the Robots page while a job is being executed? Options are :",
+        "domanda": "Question 186: The String.Format(\"Input ={0} and Output = {0}\", \"1\",\"2\") expression returns the following: Options are :",
         "risposte_possibili": [
-            "A: Busy",
-            "B: Running",
-            "C: Pending\nCorrect Answer: C\nQuestion 186. (Single Select)\nThe String.Format(\"Input ={0} and Output = {0}\", \"1\",\"2\") expression returns the following:\nOptions are :\nA:  Input ={0} and Output = {0}\nB:  Input = 1 and Output = 2\nC:  Input = 1 and Output = 1",
+            "A: Input ={0} and Output = {0}",
+            "B: Input = 1 and Output = 2",
+            "C: Input = 1 and Output = 1",
             "D: Input ={1} and Output = {2}"
         ],
         "risposta_corretta": [
@@ -1104,11 +1104,11 @@
         ]
     },
     {
-        "domanda": "Question 187: In the UiPath Robotic Enterprise Framework template, if a System Error is encountered in the Init State of the Main Workflow, Which state is executed next? Options are :",
+        "domanda": "Question 192: •In the UiPath Robotic Enterprise Framework template, in the Main workflow, the State Machine includes the following states: Options are :",
         "risposte_possibili": [
-            "A: Get Transaction Data",
-            "B: Init",
-            "C: End Process\n\nCorrect Answer: C\nQuestion 188. (Multi Select)\nIt is possible to write to a text file without using the Write Text File activity?\nOptions are :\nA:  No\nB:  Yes, by using the Invoke Method Activity\nC:  Yes, with the Invoke Power Shell Activity\nCorrect Answer: B, C\nQuestion 189. (Multi Select)\nWhich of the following are considered best practices?\nOptions are :\nA:  Start you new sequence with a short annotation meant to explain the purpose of the workflow\nB:  Include a Should Stop activity at the end of the workflow\nC:  Think about the exception that might occur during the execution of the process\nCorrect Answer: A, C\nQuestion 190. (Single Select)\nWhat is the difference between a Click activity whose SimulateClick property is checked and\nanother one with the same property unchecked?\nOptions are :\n\nA:  The activity with an enabled SimulateClick flag does not click the target element, it just\nsimulates the action\nB:  The activity with the SimulateClick flag unchecked moves the mouse cursonr over the target\nelement, while the one with flag set does not move the mouse cursor\nC:  The activity with an enabled SimulateClick flag does not click the target element, it just\nsimulates the action\nCorrect Answer: C\nQuestion 191. (Single Select)\nWhat type of assets can be stored in Orchestrator?\nOptions are :\nA:  Array, Datatable, Bool, String\nB:  Bool, String, Integer, Credential\nC:  Integer, Passowrd, GenericValue, String\nCorrect Answer: B\nQuestion 192. (Multi Select)\n•In the UiPath Robotic Enterprise Framework template, in the Main workflow, the State Machine\nincludes the following states:\nOptions are :\nA:  Init State\nB:  Get transaction data State\nC:  Process Transaction State",
+            "A: Init State",
+            "B: Get transaction data State",
+            "C: Process Transaction State",
             "D: Set Transaction State\nE:  End Process State"
         ],
         "risposta_corretta": [
@@ -1116,11 +1116,11 @@
         ]
     },
     {
-        "domanda": "Question 193: Uipath Certification Question Set 6 In the UiPath Robotic Enterprise Framework template, where can the GetAppCredentials workflow retrive credentials from? Options are :",
+        "domanda": "Question 203: In this exercise, you will create a UiPath automation that performs the steps below. To achieve this, you will use the REFrameWork as the starting template and follow the UiPath development best practices.",
         "risposte_possibili": [
-            "A: Windows Credential Manager",
-            "B: Orchestrator Asset",
-            "C: User Dialog\nCorrect Answer: A\nQuestion 194. (Multi Select)\nWhere should Credentials be stored?\nOptions are :\nA:  In Windows Credential Store\nB:  In Orchestrator as assets\nC:  Directly inside the workflows as variables\nCorrect Answer: A, B\nQuestion 195. (Single Select)\nWhat is the slowest Method of reading Text?\nOptions are :\nA:  Native\nB:  OCR\nC:  Full Text\n\nCorrect Answer: B\nQuestion 196. (Multi Select)\nWhat direction can the arguments of a workflow have?\nOptions are :\nA:  In arguments\nB:  Out arguments\nC:  In/Out arguments\nCorrect Answer: A, B, C\nQuestion 197. (Multi Select)\nIn the UiPath Robotic Enterprise Framework template, what happens if the processing of a\ntransaction item falls with an Application Exception of a System Error?\nOptions are :\nA:  All use application are closed and then re-initialized\nB:  The execution of the transaction item is retried if the MaxRetryNumber config value is greater\nthan 0\nC:  The process executes the End Process state\nCorrect Answer: A, B\nQuestion 198. (Single Select)\nIn this exercise, you will create a UiPath automation that performs the steps below.\nTo achieve this, you will use the REFrameWork as the starting template and follow the UiPath\n\ndevelopment best\npractices.\nA:  Here are the steps performed by the Robot:\nB:  Sendusyourfeedbackonthis\nCorrect Answer: A\nQuestion 199. (Single Select)\nIn this exercise, you will create a UiPath automation that performs the steps below.\nTo achieve this, you will use the REFrameWork as the starting template and follow the UiPath\ndevelopment best practices.\nHere are the steps performed by the Robot:\n2. On the landing page, Dashboard, click or hover over the Vendors menu item and then click on\nSearch for Vendor. Click on Display All Vendors. Scrape the data from the whole table isplayed.\nThe resulting datatable will be used as the input data for the process. Navigate back to the\ndashboard.\nNote: Navigation can be achieved in multiple ways by the robot - choose whichever you find\nbest.\n3. For each Tax ID:\n- Navigate to Vendors - Search page (click or hover over the Vendors menu item and then click\non Search for Vendor);\n- Type the Tax ID into the Vendor Tax ID field;\n- Click on Search;\n- Extract the values for the Vendor, City and Country and compare them with the values from the\npreviously extracted table from the Display All Vendors page (check for EXACT match for all\nfields!);\n- If the values are not matching, this should be categorized as a Business Rule Exception;\n- If the City does NOT belong to the group {\"\"Paris\"\", \"\"Bucuresti\"\", \"\"Moscow\"\", \"\"Stuttgart\"\",\n\"\"Koln\"\"}, this should be categorized as the second Business Rule Exception. We can only\nprocess requests from these cities. Check the City value extracted after the individual Tax ID\nsearch;\n- If no Business Rule Exception, Append the resulting datatable from each page into an Excel\nworksheet;\nyou shouldn''t worry about the headers and format of the output file.\n\nConstraints to follow in the development, using the REFrameWork:\n1. TransactionItem datatype should be a DataRow. The process should recover and retry 2 times\nin case of errors in navigation between the Vendor Search and Vendor Search Results pages.\nOne transaction is the action of navigating to the Vendor Search page, searching for the TaxID\nand scraping the values from the resulting one row table. (Similar to ACME Process 5 from the\nUiPath Academy).\n2. Create a separate workflow file for the Login to ACME. File input arguments: URL ; Username\n; Password .\n3. Create a separate workflow file for closing ACME.\n4. Add the ACME_URL and ACME_Credential to the Excel Config file.\n5. Populate InitAllApplications.xaml from the Framework folder with Invoking the Login to ACME\nand navigation to the Work Items.\n6. Populate CloseAllApplications.xaml from the Framework folder with Invoking the Close\nACME.\n7. Populate KillAllProcesses.xaml from the Framework folder with killing the process used.\n8. Populate the Process.xaml file with the following actions: Navigation, Searching for TaxID,\nScraping, Checking if the values match, Checking for the correct City, Appending to Excel.\nImportant Note: Don''t use external file references outside of the project folder (including\nOrchestrator Assets). Place all the used files within the project folder, zip that folder and upload\nit to the UiPath Certification Platform.\nZip ALL the used workflow files AND the output Excel file. Then upload the .zip file to the UiPath\nCertification Platform.\nA:  Sendusyourfeedbackonthis\nCorrect Answer: A\nQuestion 200. (Single Select)\nIn this exercise, you will create a UiPath automation that performs the steps below.\nTo achieve this, you will use the REFrameWork as the starting template and follow the UiPath\ndevelopment best practices.\nHere are the steps performed by the Robot:\n2. On the landing page, Dashboard, click or hover over the Vendors menu item and then click on\nSearch for Vendor. Click on Display All Vendors. Scrape the data from the whole table displayed.\nThe resulting datatable will be used as the input data for the process. Navigate back to the\n\ndashboard.\nNote: Navigation can be achieved in multiple ways by the robot - choose whichever you find\nbest.\n3. For each Tax ID:\n- Navigate to Vendors - Search page (click or hover over the Vendors menu item and then click\non Search for Vendor);\n- Type the Tax ID into the Vendor Tax ID field;\n- Click on Search;\n- Extract the values for the Vendor, City and Country and compare them with the values from the\npreviously extracted table from the Display All Vendors page (check for EXACT match for all\nfields!);\n- If the values are not matching, this should be categorized as a Business Rule Exception;\n- If the City does NOT belong to the group {\"\"Rimini\"\", \"\"Berlin\"\", \"\"Roma\"\", \"\"Iasi\"\", \"\"Koln\"\"}, this\nshould be categorized as the second Business Rule Exception. We can only process requests\nfrom these cities. Check the City value extracted after the individual Tax ID search;\n- If no Business Rule Exception, Append the resulting datatable from each page into an CSV file;\nyou shouldn''t worry about the headers and format of the output file.\nConstraints to follow in the development, using the REFrameWork:\n1. TransactionItem datatype should be a DataRow. The process should recover and retry 2 times\nin case of errors in navigation between the Vendor Search and Vendor Search Results pages.\nOne transaction is the action of navigating to the Vendor Search page, searching for the TaxID\nand scraping the values from the resulting one row table. (Similar to ACME Process 5 from the\nUiPath Academy).\n2. Create a separate workflow file for the Login to ACME. File input arguments: URL ; Username\n; Password .\n3. Create a separate workflow file for closing ACME.\n4. Add the ACME_URL and ACME_Credential to the Excel Config file.\n5. Populate InitAllApplications.xaml from the Framework folder with Invoking the Login to ACME\nand navigation to the Work Items.\n6. Populate CloseAllApplications.xaml from the Framework folder with Invoking the Close\nACME.\n7. Populate KillAllProcesses.xaml from the Framework folder with killing the process used.\n8. Populate the Process.xaml file with the following actions: Navigation, Searching for TaxID,\nScraping, Checking if the values match, Checking for the correct City, Appending to CSV.\nImportant Note: Don''t use external file references outside of the project folder (including\nOrchestrator Assets). Place all the used files within the project folder, zip that folder and upload\nit to the UiPath Certification Platform.\nZip ALL the used workflow files AND the output Excel file. Then upload the .zip file to the UiPath\nCertification Platform.\nOptions are :\nALL THE BEST!\n\nA:  Sendusyourfeedbackonthis\nCorrect Answer: A\nQuestion 201. (Single Select)\nIn this exercise, you will create a UiPath automation that performs the steps below.\nTo achieve this, you will use the REFrameWork as the starting template and follow the UiPath\ndevelopment best practices.\nHere are the steps performed by the Robot:\n2. On the landing page, Dashboard, click on the Work items menu item. Scrape the data in all\nthe pages of the table, page by page, ensuring error handling and recovery.\n3. For each page:\n- Filter the records where Status is ''Open'';\n- Filter the records where Type is ''WI5'';\n- Filter the records where WIID is less than 500000;\n- Append the resulting datatable into an Excel worksheet; you shouldn''t worry about the headers\nand   format of the output file.\nConstraints to follow in the development, using the REFrameWork:\n1. TransactionItem datatype should be a String. The process should recover and retry in case of\nerrors in navigation between WorkItems page. One transaction is the action of scraping one web\n4 Dispatcher from the UiPath Academy).\n2. Create a separate workflow file for the Login to ACME. File input arguments: URL ; Username\n; Password .\n3. Create a separate workflow file for closing ACME.\n3. Add the ACME_URL and ACME_Credential to the Config file.\n4. Populate InitAllApplications.xaml from the Framework folder with Invoking the Login to ACME\nand navigation to the Work Items.\n5. Populate CloseAllApplications.xaml from the Framework folder with Invoking the Close\nACME.\n6. Populate KillAllProcesses.xaml from the Framework folder with killing the process used.\n7. Populate the Process.xaml file with the following actions: Web scraping, Filtering and\nAppending to Excel.\nImportant Note: Don''t use external file references outside of the project folder (including\n\nOrchestrator Assets). Place all the used files within the project folder, zip that folder and upload\nit to the UiPath Certification Platform.\nZip ALL the used workflow files AND the output Excel file. Then upload the .zip file to the UiPath\nCertification Platform.\nGood luck!\nOptions are :\nALL THE BEST!\nA:  Sendusyourfeedbackonthis\nCorrect Answer: A\nQuestion 202. (Single Select)\nIn this exercise, you will create a UiPath automation that performs the steps below.\nTo achieve this, you will use the REFrameWork as the starting template and follow the UiPath\ndevelopment best practices.\nA:  Here are the steps performed by the Robot:\nB:  Constraints to follow in the development, using the REFrameWork:\nCorrect Answer: B\nQuestion 203. (Single Select)\nIn this exercise, you will create a UiPath automation that performs the steps below.\nTo achieve this, you will use the REFrameWork as the starting template and follow the UiPath\ndevelopment best practices.\nA:  The solution has to be scalable, so create two separate projects (sub-processes):\nB:  Here are the steps performed by the Robot in the Dispatcher:\nC:  Here are the steps performed by the Robot in the Performer:",
+            "A: The solution has to be scalable, so create two separate projects (sub-processes):",
+            "B: Here are the steps performed by the Robot in the Dispatcher:",
+            "C: Here are the steps performed by the Robot in the Performer:",
             "D: Constraints to follow in the development, using the REFrameWork:"
         ],
         "risposta_corretta": [
@@ -1128,11 +1128,11 @@
         ]
     },
     {
-        "domanda": "Question 204: Is it possible to retrieve the color of a specific Excel cell? Options are :",
+        "domanda": "Question 208: A developer initialized the following dictionary: sampleDictionary = New Dictionary(Of String, String) From { {“HUB Academy”, “RPA”}, {“UiPath”, “Certificate”} } How to return the value \"Certificate\" from this dictionary?",
         "risposte_possibili": [
-            "A: No, The color cannot be retrieved from a workbook",
-            "B: Only with an OCR Engine",
-            "C: Yes, by using Get Cell Color\nCorrect Answer: C\nQuestion 205. (Single Select)\nWhich activity is used to call another piece of automation?\nOptions are :\nA:  Open Application\nB:  Invoke Workflow File\nC:  Flowchart\nCorrect Answer: B\nQuestion 206. (Single Select)\nWhat type of argument can you define to pass data and retrieve the modified value from an\ninvoked workflow?\nOptions are :\n\nA:  In\nB:  In/Out\nC:  Out\nCorrect Answer: B\nQuestion 207. (Single Select)\nWhat is the best way to select a row with a certain value from a column in Excel?\nOptions are :\nA:  Use a Read Range Activity to retrieve the contents of the Excel file, and then use a For Each\nactivity loop to iterate through the data and identify\nB:  Use a Read Range Activity to retrieve the contents of the Excel file, and then use a Select\nMethod to identify the desired row\nC:  Use the Find functionality from Excel\nCorrect Answer: B\nQuestion 208. (Single Select)\nA developer initialized the following dictionary:\nsampleDictionary = New Dictionary(Of String, String) From { {“HUB Academy”, “RPA”}, {“UiPath”,\n“Certificate”} }\nHow to return the value \"Certificate\" from this dictionary?\nA:  sampleDictionary(\"UiPath\")\nB:  sampleDictionary.Keys(\"UiPath\")\nC:  sampleDictionary(\"UiPath\").GetValue",
+            "A: sampleDictionary(\"UiPath\")",
+            "B: sampleDictionary.Keys(\"UiPath\")",
+            "C: sampleDictionary(\"UiPath\").GetValue",
             "D: sampleDictionary.Values(2)"
         ],
         "risposta_corretta": [
@@ -1260,11 +1260,11 @@
         ]
     },
     {
-        "domanda": "Question 219: A developer has created a process that gathers a listing of stock market prices in the following format <Symbol>_<Price>USD (<Company Name>). How should the third line in RegEx Builder be modified to ensure that only items with prices of at least 100 are identified?",
+        "domanda": "Question 220: Please choose the correct statement about automation processes.",
         "risposte_possibili": [
-            "A: RegEx: One of",
-            "B: RegEx: Any word character",
-            "C: RegEx: Digit\nCorrect Answer: C\nExplanation:\nExactly 3 digits would ensure that the price is at least 100 USD, as any price below would have\nonly up to 2 digits.\nExam Topic: Identify how methods, activities, and the RegEx Builder are used for string\nmanipulation and regular expressions.\nQuestion 220. (Single Select)\nPlease choose the correct statement about automation processes.\nA:  Automation processes that use UiAutomation activities can run under a locked screen.\nB:  It is okay to use UiAutomation activities in background processes.\nC:  By default, all processes are marked as background, unless specified otherwise.",
+            "A: Automation processes that use UiAutomation activities can run under a locked screen.",
+            "B: It is okay to use UiAutomation activities in background processes.",
+            "C: By default, all processes are marked as background, unless specified otherwise.",
             "D: Only one foreground process can be executed at a time."
         ],
         "risposta_corretta": [
@@ -2088,7 +2088,7 @@
         ]
     },
     {
-        "domanda": "Question 289: A developer has created a project to scrape structured data from Service Desk tickets. Upon review, the developer discovered that the Extract Structured Data activity was set to retrieve 50 results. The activity needs to be updated to retrieve all available results. From the drop-down list shown in the exhibit, select the correct value that should be used to update the MaxNumberOfResults property. Correct Answer:  Question 290. (Single Select) A developer uses a Key Press Trigger activity and a Click Trigger activity to monitor events in an application. The two Trigger activities are within the same Trigger Scope activity. Which approach ensures the workflow exits the Trigger Scope activity after any trigger is activated and the associated action is performed?",
+        "domanda": "Question 290: A developer uses a Key Press Trigger activity and a Click Trigger activity to monitor events in an application. The two Trigger activities are within the same Trigger Scope activity. Which approach ensures the workflow exits the Trigger Scope activity after any trigger is activated and the associated action is performed?",
         "risposte_possibili": [
             "A: Set \"SchedulingMode=Concurrent\" in the Trigger Scope activity properties",
             "B: Set \"BlockEvent=False\" in the properties for the two Trigger activities",
@@ -2136,7 +2136,7 @@
         ]
     },
     {
-        "domanda": "Question 294: A developer wants to use the Robotic Enterprise (RE) Framework to automate a business process. The TransactionData of this process is a collection(List<String>) of vendor names. From the drop-down list shown in the exhibit, select the variable type for the TransactionItem. Correct Answer:  Question 295. (Single Select) A process uses the Robotic Enterprise (RE) Framework without access to Orchestrator. Based on best practices, what is the recommended way to ensure a transaction will be retried in the event of an Application Exception while processing that transaction?",
+        "domanda": "Question 295: A process uses the Robotic Enterprise (RE) Framework without access to Orchestrator. Based on best practices, what is the recommended way to ensure a transaction will be retried in the event of an Application Exception while processing that transaction?",
         "risposte_possibili": [
             "A: Use a Retry Scope activity within the Process Transaction state",
             "B: Use a Try Catch activity with a Retry Scope activity in the Catch block defined for Application\nExceptions",
@@ -2256,7 +2256,7 @@
         ]
     },
     {
-        "domanda": "Question 305: A developer needs to create an Out argument to pass the results of a Data Scraping activity to another workflow. The activity scrapes text from a structured list on a website. From the drop-down list shown in the exhibit, select the Argument Type that should be used. Correct Answer:  Question 306. (Single Select) A developer wants to add items to a list of strings using the Invoke Method activity. The list is declared as follows: The Invoke Method has the following properties: The Parameters property is as follows:  Based on the information shown in the exhibits, what is the outcome of the Invoke Method activity?",
+        "domanda": "Question 306: A developer wants to add items to a list of strings using the Invoke Method activity. The list is declared as follows: The Invoke Method has the following properties: The Parameters property is as follows:  Based on the information shown in the exhibits, what is the outcome of the Invoke Method activity?",
         "risposte_possibili": [
             "A: An exception will be thrown",
             "B: \"Colors\" will contain only \"Yellow\" items",
@@ -2652,7 +2652,7 @@
         ]
     },
     {
-        "domanda": "Question 339: You need to include rows from one datatable named \"dt1\" in another datatable named \"dt2\". Instructions: From the drop-down lists for Invoke Method on the \"For Each Row in Data Table\" display, select the correct value of each field for the \"Invoke Method\". Next, from the drop-down  list on the Parameters display, select the correct Value to complete this task. Correct Answer:  Question 340. (Single Select) A developer has two collections containing data: 1) A list of strings called listA that was initialized with 2 items 2) An array of strings called arrayB that was initialized with 2 items How can both collections be combined into a single 4-item collection called results?",
+        "domanda": "Question 340: A developer has two collections containing data: 1) A list of strings called listA that was initialized with 2 items 2) An array of strings called arrayB that was initialized with 2 items How can both collections be combined into a single 4-item collection called results?",
         "risposte_possibili": [
             "A: Use the Add To Collection activity with arrayB as the parameter",
             "B: Use the String.Join method with listA and arrayB as parameters",
@@ -2700,7 +2700,7 @@
         ]
     },
     {
-        "domanda": "Question 344: A developer is automating a project for the Finance team. As defined in the Process Definition Document, the robot is required to log the completion of each step with the documented corresponding Log Level. If Fatal is the highest Log Level severity for the UiPath Log Message activity, what is the correct priority sequence, from the lowest to the highest severity, of the remaining Log Levels? Instructions: Drag and drop the lowest severity level to the top of the list and repeat until the highest severity level appears at the bottom of the list. Correct Answer:  Question 345. (Single Select) A developer creates a Dispatcher process which extracts information from a Microsoft Excel file and uploads that information into an Orchestrator queue. Based on best practice, what is the recommended way to avoid creating duplicate Queue Items?",
+        "domanda": "Question 345: A developer creates a Dispatcher process which extracts information from a Microsoft Excel file and uploads that information into an Orchestrator queue. Based on best practice, what is the recommended way to avoid creating duplicate Queue Items?",
         "risposte_possibili": [
             "A: Enable the Enforce unique references field of the queue",
             "B: Add a descriptive \"Reference\" in the Add Queue Item activity",
