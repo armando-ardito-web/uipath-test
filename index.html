@@ -62,7 +62,7 @@
         let totalQuestions = 0;
 
         // Fetch questions from the JSON file
-        fetch('uipath_qa_extracted_fixed.json')
+        fetch('domande.json')
             .then(response => response.json())
             .then(data => {
                 questions.push(...data.sort(() => 0.5 - Math.random()).slice(0, 30));
