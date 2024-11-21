@@ -5,10 +5,10 @@
             "A. The remote robot continues the execution after Studio closes the connection.",
             "B. Debugging execution ends in exception, then the connection is closed.",
             "C. Debugging execution stops gracefully, then the connection is closed.",
-            "D. It is not possible to close the connection while debugging is in progress. Most Voted"
+            "D. It is not possible to close the connection while debugging is in progress."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -20,19 +20,19 @@
             "D. In the RetryCurrentTransaction.xaml workflow and in the"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #4 - Topic 1: Which logging level includes the following information by default? 1. Execution Started log entry - generated every time a process is started. 2. Execution Ended log entry - generated every time a process is finalized. 3. Transaction Started log entry - generated every time a transaction item is obtained by the robot from Orchestrator. 4. Transaction Ended log entry - generated every time the robot sets the transaction status to either Success or Failed. 5. Activity Information log entry - generated every time an activity is started, faulted or finished inside a workflow. 6. Arguments and Variables Information log entry - show values of the variables and arguments that are used.     Hide Solution Discussion 4 Community vote distribution A (100%) ",
+        "domanda": "Question #4 - Topic 1: ?Which logging level includes the following information by default? 1. Execution Started log entry - generated every time a process is started. 2. Execution Ended log entry - generated every time a process is finalized. 3. Transaction Started log entry - generated every time a transaction item is obtained by the robot from Orchestrator. 4. Transaction Ended log entry - generated every time the robot sets the transaction status to either Success or Failed. 5. Activity Information log entry - generated every time an activity is started, faulted or finished inside a workflow. 6. Arguments and Variables Information log entry - show values of the variables and arguments that are used.     Hide Solution Discussion 4 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. Verbose Most Voted",
+            "A. Verbose",
             "B. Trace",
             "C. Critical",
             "D. Information"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -44,11 +44,11 @@
             "D. The process steps are performed only once. If the need is to process additional"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #6 - Topic 1: A developer is building a process that needs to click an element which requires a mouse hover to become visible. However, the element does not appear with the default click setting. The input method for the Click activity is Send Window Message. Which property should the developer configure to be able to click the element?  CursorMotionType to Instant.  CursorMotionType to Smooth. Most Voted Hide Solution Discussion 5 Community vote distribution B (100%) ",
+        "domanda": "Question #6 - Topic 1: A developer is building a process that needs to click an element which requires a mouse hover to become visible. However, the element does not appear with the default click setting. The input method for the Click activity is Send Window Message. Which property should the developer configure to be able to click the element? Hide Solution Discussion 5 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. The developer should change the input method to Simulate and the",
             "B. The developer should change the input method to Hardware Events and the",
@@ -56,7 +56,7 @@
             "D. The property AlterIfDisabled should be set to True."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -64,51 +64,51 @@
         "risposte_possibili": [
             "A. Flowchart",
             "B. Workflow",
-            "C. State Machine Most Voted",
+            "C. State Machine",
             "D. Global Exception Handler"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #8 - Topic 1: Question #8 - Topic 1: A developer configured the properties for a Click activity as shown below: What happens if the activity cannot find its target at runtime?   Hide Solution Discussion 11 Community vote distribution C (100%) ",
+        "domanda": "Question #8 - Topic 1: Question #8 - Topic 1: ?   Hide Solution Discussion 11 Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. An exception is thrown after 10 milliseconds.",
             "B. An exception is thrown after 10 seconds.",
-            "C. The next activity is executed after 10 seconds. Most Voted",
+            "C. The next activity is executed after 10 seconds.",
             "D. The next activity is executed after 10 milliseconds."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #9 - Topic 1: What is the default priority value for the Job Priority field in UiPath Orchestrator when starting a job manually?     Hide Solution Discussion 3 Community vote distribution A (100%)",
+        "domanda": "Question #9 - Topic 1: What is the default priority value for the Job Priority field in UiPath Orchestrator when starting a job manually?",
         "risposte_possibili": [
-            "A. Inherited Most Voted",
+            "A. Inherited",
             "B. Medium",
             "C. High",
             "D. Low"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #10 - Topic 1: Consider testing a workflow that computes the sum of two numbers having the data driven test data from the Excel file below: Expanding the functionality of the workflow to compute the sum of three numbers, the data needs to be updated as well to accommodate the new scenario: What are steps to do that?     Hide Solution Discussion 6 Community vote distribution A (100%)",
+        "domanda": "Question #10 - Topic 1: Consider testing a workflow that computes the sum of two numbers having the data driven test data from the Excel file below: Expanding the functionality of the workflow to compute the sum of three numbers, the data needs to be updated as well to accommodate the new scenario: What are steps to do that?",
         "risposte_possibili": [
-            "A. Click Right on the Test Case and select Update Test Data. Most Voted",
+            "A. Click Right on the Test Case and select Update Test Data.",
             "B. Click Right on the Test Case and select Add Test Data.",
             "C. Click Right on the Test Case and select Refresh Test Data.",
             "D. Click Right on the Test Case and select Remove Test Data."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #11 - Topic 1: Data from an Excel file is read into a data table named \"dtEmployee\", as displayed in the following graphic: A developer needs to filter the data table to obtain all rows representing employees from the Finance and IT departments with a Salary under 30,000. Which expression yields the desired outcomes?  < 30000\")  30000\")  30000\")  < 30000\") Most VotedHide Solution Discussion 3 Community vote distribution D (100%) ",
+        "domanda": "Question #11 - Topic 1: Data from an Excel file is read into a data table named \"dtEmployee\", as displayed in the following graphic: A developer needs to filter the data table to obtain all rows representing employees from the Finance and IT departments with a Salary under 30,000. Which expression yields the desired outcomes?Hide Solution Discussion 3 Community vote distribution D (100%) ",
         "risposte_possibili": [
             "A. dtEmployee.Select(\"([Department]='IT' AND [Department]='Finance') AND [Salary]",
             "B. dtEmployee.Select(\"[Department]='IT OR [Department]='Finance' OR [Salary] <",
@@ -116,11 +116,11 @@
             "D. dtEmployee.Select(\"([Department]='IT' OR [Department]='Finance') AND [Salary]"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #12 - Topic 1: A developer is building an automation that must interact with a destination remote computer reached by jumping through multiple RDP connections, as described by the following scenario: - The Robot is installed on Machine A, which connects through RDP to Machine B. - From Machine B another RDP connection is opened to Machine C, where the automation must be performed. Which of the following scenarios is appropriate for the developer who wants to use UI Automation activities?  Machine A - install RDP extension. Machine B - install RemoteRuntime.msi. Machine C - install RemoteRuntime.msi.  Machine A - install RDP extension. Machine B - install RDP extension and RemoteRuntime.msi. Machine C - install RemoteRuntime.msi. Most Voted  Machine A - no requirement. Machine B - no requirement. Machine C - install RemoteRuntime.msi.  Machine A - install RDP extension.Machine B - no requirement. Machine C - install RemoteRuntime.msi. Hide Solution Discussion 3 Community vote distribution B (100%) ",
+        "domanda": "Question #12 - Topic 1: A developer is building an automation that must interact with a destination remote computer reached by jumping through multiple RDP connections, as described by the following scenario: - The Robot is installed on Machine A, which connects through RDP to Machine B. - From Machine B another RDP connection is opened to Machine C, where the automation must be performed. Which of the following scenarios is appropriate for the developer who wants to use UI Automation activities?Machine B - no requirement. Machine C - install RemoteRuntime.msi. Hide Solution Discussion 3 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. UI Automation can be used and the following are prerequisites:",
             "B. UI Automation can be used and the following are prerequisites:",
@@ -128,23 +128,23 @@
             "D. UI Automation can be used and the following are prerequisites:"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
         "domanda": "How does UiPath handle different dependency versions for multiple running processes that run at the same time?     Hide Solution Discussion 2 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Each running process automatically adapts to the available dependency version.",
-            "B. Each running process uses its own required version of the dependency. Most Voted",
+            "B. Each running process uses its own required version of the dependency.",
             "C. All running processes use the latest version of the dependency available.",
             "D. Running processes use the earliest compatible dependency version."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #14 - Topic 1: In order for a developer to utilize the default REFramework without relying on Orchestrator queues, what is the essential prerequisite to ensure that the project does not interact with Orchestrator?  OrchestratorQueueName setting from Config.xlsx & change the variable type.  Get Transaction Item activity from the project & change the variable type.  SetTransactionStatus activities from the SetTransactionStatus workflow & change the variable type. Most Voted  three SetTransactionStatus activities from the SetTransactionStatus workflow & change the variable type. Hide Solution Discussion 3 Community vote distribution C (100%) ",
+        "domanda": "Question #14 - Topic 1: ?In order for a developer to utilize the default REFramework without relying on Orchestrator queues, what is the essential prerequisite to ensure that the project does not interact with Orchestrator?  OrchestratorQueueName setting from Config.xlsx & change the variable type.  Get Transaction Item activity from the project & change the variable type.  SetTransactionStatus activities from the SetTransactionStatus workflow & change the variable type. Most Voted  three SetTransactionStatus activities from the SetTransactionStatus workflow & change the variable type. Hide Solution Discussion 3 Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. Remove the Get Transaction Data state from the Main state machine. Remove the",
             "B. Eliminate the Get Transaction Data state from the Main state machine. Exclude the",
@@ -152,47 +152,47 @@
             "D. Omit the OrchestratorQueueName setting from the Config.xlsx file. Exclude the"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
         "domanda": "Question #15 - Topic 1: Which of the following describes the correct hierarchy of the elements in the Object Repository tree structure?  Hide Solution Discussion 5 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Version, Application, Screen, UI Element.",
-            "B. Application, Version, Screen, UI Element. Most Voted",
+            "B. Application, Version, Screen, UI Element.",
             "C. Application, Screen, UI Element, Version.",
             "D. Screen, Application, Version, UI Element."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #16 - Topic 1: Question #16 - Topic 1: A developer wants to add items to a list of strings using the Invoke Method activity. The list is declared as follows: The Invoke Method activity has the following properties:The Parameters property is as follows: Based on the information shown in the exhibits what is the outcome of the Invoke Method activity?     Hide Solution Discussion 6Community vote distribution A (100%) ",
+        "domanda": "Question #16 - Topic 1: Question #16 - Topic 1: A developer wants to add items to a list of strings using the Invoke Method activity. The list is declared as follows: The Invoke Method activity has the following properties:  ?Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. An exception will be thrown. Most Voted",
+            "A. An exception will be thrown.",
             "B. Colors will contain an item with the value \"Yellow\".",
             "C. Colors will contain an item with an empty value.",
             "D. Colors will contain an item with the value \"Colors: Yellow\"."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
         "domanda": "What is the default polling interval set for an event trigger?     Hide Solution Discussion 4 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. 1 minute",
-            "B. 5 minutes Most Voted",
+            "B. 5 minutes",
             "C. 10 minutes",
             "D. 15 minutes"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #18 - Topic 1: When should the Show Elements button be used in the Computer Vision wizard?  analysis. Most Voted   engine. Hide Solution Discussion 1 Community vote distribution A (100%) ",
+        "domanda": "Question #18 - Topic 1: When should the Show Elements button be used in the Computer Vision wizard?   engine. Hide Solution Discussion 1 Community vote distribution A (100%) ",
         "risposte_possibili": [
             "A. Highlighting all UI elements that have been identified by the Computer Vision",
             "B. Displaying a list of all available UI elements and their properties.",
@@ -200,19 +200,19 @@
             "D. Filtering out specific UI elements from being processed by the Computer Vision"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #19 - Topic 1: In a UiPath State Machine workflow, which section of State activity is used to specify conditional/triggers logic and multiple outgoing transitions in a state machine?     Hide Solution Discussion 1 Community vote distributionB (100%) ",
+        "domanda": "Question #19 - Topic 1: In a UiPath State Machine workflow, which section of State activity is used to specify conditional/triggers logic and multiple outgoing transitions in a state machine?B (100%) ",
         "risposte_possibili": [
             "A. Entry",
-            "B. Transitions Most Voted",
+            "B. Transitions",
             "C. Triggers",
             "D. Exit"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -224,55 +224,55 @@
             "D. To generate extra variables alongside log messages, enhancing workflow"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
         "domanda": "Question #21 - Topic 1: What method can be used to change the index of an existing column in a datatable? Hide Solution Discussion 1 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. MoveAt",
-            "B. SetOrdinal Most Voted",
+            "B. SetOrdinal",
             "C. SetColumnIndex",
             "D. SetIndex"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
         "domanda": "A developer is building a process that types data into input fields using the Hardware Events input method. Which property of the Type Into activity should be modified to reduce the pace at which the input string characters are typed into the fields?     Hide Solution Discussion 2 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Delay before",
-            "B. Delay between keys Most Voted",
+            "B. Delay between keys",
             "C. Delay after",
             "D. Alter disabled element"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #23 - Topic 1: While working in an RPA testing project, you encountered the following activity in one of the workflows included in the project. What action can you perform in your mocked file to replace the functionality of the MessageBox with a LogMessage during mock testing?     Hide Solution Discussion 1 Community vote distribution C (100%) ",
+        "domanda": "Question #23 - Topic 1: ?While working in an RPA testing project, you encountered the following activity in one of the workflows included in the project. What action can you perform in your mocked file to replace the functionality of the MessageBox with a LogMessage during mock testing?     Hide Solution Discussion 1 Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. Synchronize mock.",
             "B. Create mock workflow.",
-            "C. Surround activity with mock. Most Voted",
+            "C. Surround activity with mock.",
             "D. Remove mock activity."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #24 - Topic 1: Question #24 - Topic 1: A developer is building an automation which types text into a text file. The Activity Project Settings tor UI Automation Modern activities are set as follows:The developer has configured the properties of a Type Into activity as follows: What is the behavior of the Type Into activity when executing the workflow?    Hide Solution Discussion 6 Community vote distribution C (80%) D (20%) ",
+        "domanda": "Question #24 - Topic 1: Question #24 - Topic 1: A developer is building an automation which types text into a text file. The Activity Project Settings tor UI Automation Modern activities are set as follows:  ?    Hide Solution Discussion 6 Community vote distribution C (80%) D (20%) ",
         "risposte_possibili": [
             "A. The activity will use only properties set in Activity Project Settings.",
             "B. The activity will remove Multi Line in Run mode and a Single Line in Debug mode.",
-            "C. The activity will remove a Single Line in Run mode and in Debug mode. Most Voted",
+            "C. The activity will remove a Single Line in Run mode and in Debug mode.",
             "D. The activity will remove a Single Line in Run mode and Multi Line in Debug mode."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
@@ -280,15 +280,15 @@
         "risposte_possibili": [
             "A. Percent of test data run.",
             "B. Correctness of the code percent.",
-            "C. Coverage percent. Most Voted",
+            "C. Coverage percent.",
             "D. Passing percent."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #26 - Topic 1: To retrieve all Outlook emails with the word \"UiPath\" in the subject, which filtering property and filter schema should a developer use?  Schema: \"@SQL=\"\"urn:schemas:httpmail:subject'\"' like 'UiPath%'\"  Schema: \"@SQL=\"\"urn:schemas:httpmail:subject\"\" like 'UiPath%'\"  Schema: \"@SQL=\"\"urn:schemas:httpmail:subject\"\" like '%UiPath%'\" Most Voted  Schema: \"@SQL=\"\"urn:schemas:httpmail:subject\"\" like '%UiPath%'\" Hide Solution Discussion 1Community vote distribution C (100%) ",
+        "domanda": "Question #26 - Topic 1: To retrieve all Outlook emails with the word \"UiPath\" in the subject, which filtering property and filter schema should a developer use?Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. Property: FilterByMessageIds -",
             "B. Property: Filter -",
@@ -296,19 +296,19 @@
             "D. Property: FilterByMessageIds -"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #27 - Topic 1: Question #27 - Topic 1: Question #27 - Topic 1: Given the following list of arguments: and the following code:What is the value that will be displayed in the Output Panel at the end of the sequencebelow:     Hide Solution Discussion 3 Community vote distribution D (100%)",
+        "domanda": "Question #27 - Topic 1: Question #27 - Topic 1: Question #27 - Topic 1: Given the following list of arguments: and the following code:  ?",
         "risposte_possibili": [
             "A. 1",
             "B. 2",
             "C. 7",
-            "D. 9 Most Voted"
+            "D. 9"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -320,19 +320,19 @@
             "D. To determine which processes should be executed first when dealing with multiple"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #29 - Topic 1: Which command in the UiPath installation folder configures the UIPath.RemoteDebugging.Agent utility on a Windows robot to accept remote debugging requests from Studio?    --verboseHide Solution Discussion 2 Community vote distribution B (100%) ",
+        "domanda": "Question #29 - Topic 1: Which command in the UiPath installation folder configures the UIPath.RemoteDebugging.Agent utility on a Windows robot to accept remote debugging requests from Studio?Hide Solution Discussion 2 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. UiPath.RemoteDebugging.Agent.exe start --port --password --verbose",
-            "B. UiPath.RemoteDebugging.Agent.exe enable --port --password --verbose Most Voted",
+            "B. UiPath.RemoteDebugging.Agent.exe enable --port --password --verbose",
             "C. UiPath.RemoteDebugging.Agent.exe enable --port --username --password",
             "D. dotnet ./UiPath.RemoteDebugging.Agent.dll enable --port --password --verbose"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -344,11 +344,11 @@
             "D. Administrator privileges are required for installing the robot in service mode. Most"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #31 - Topic 1: Where in the REFramework template project is the \"SetTransactionStatus.xaml\" invoked?    Transaction state. Most Voted  Hide Solution Discussion 4 Community vote distribution C (100%) ",
+        "domanda": "Question #31 - Topic 1: ?Where in the REFramework template project is the \"SetTransactionStatus.xaml\" invoked?    Transaction state. Most Voted  Hide Solution Discussion 4 Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. In the Finally section of the Try Catch activity in the End Process state.",
             "B. In the Try section of the Try Catch activity in the End Process state.",
@@ -356,11 +356,11 @@
             "D. In the Try section of the Try Catch activity in the Process Transaction state."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #32 - Topic 1: What is a pre-requisite for running functional test cases in REFramework?     Hide Solution Discussion",
+        "domanda": "Question #32 - Topic 1: What is a pre-requisite for running functional test cases in REFramework?",
         "risposte_possibili": [
             "A. Invoke Process XAML file",
             "B. Invoke SetTransactionStatus XAML file",
@@ -368,23 +368,23 @@
             "D. Invoke InitAllSettings XAML file"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
         "domanda": "Question #33 - Topic 1: The following table is stored in a variable called \"dt\". What will the value of the qty variable be after executing the Assign activity? Hide Solution Discussion 9 Community vote distribution B (71%) A (29%) ",
         "risposte_possibili": [
             "A. 5",
-            "B. 10 Most Voted",
+            "B. 10",
             "C. 80",
             "D. null"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #34 - Topic 1: What is the purpose of the Interval filter in the Orchestrator's Monitoring page?   displayed data.   of your system in either the last day or the last hour. Most Voted Hide Solution Discussion 2 Community vote distribution D (100%)",
+        "domanda": "Question #34 - Topic 1: What is the purpose of the Interval filter in the Orchestrator's Monitoring page?",
         "risposte_possibili": [
             "A. It enables you to sort the displayed data based on job priorities.",
             "B. It allows you to choose between background and foreground processes for the",
@@ -392,23 +392,23 @@
             "D. It allows you to control the granularity of the displayed data and check the health"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
         "domanda": "A developer implemented a process using the Robotic Enterprise Framework and an Orchestrator queue. The MaxRetryNumber from the \"Config.xlsx\" file is set to \"1\" and the Max # of retries from the Queue settings from Orchestrator is set to \"2\". At runtime, the first transaction item throws a Business Exception. How many times will the transaction be retried?     Hide Solution Discussion 7 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. The transaction will not be retried. Most Voted",
+            "A. The transaction will not be retried.",
             "B. The transaction will be retried only one time.",
             "C. The transaction will be retried 2 times.",
             "D. The transaction will be retried multiple times, until it will be processed successfully."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #36 - Topic 1: What role do Triggers play in the UiPath Integration Service?  applications, automatically starting processes in Orchestrator. Orchestrator. Hide Solution Discussion 3 ",
+        "domanda": "Question #36 - Topic 1: What role do Triggers play in the UiPath Integration Service? Orchestrator. Hide Solution Discussion 3 ",
         "risposte_possibili": [
             "A. Provide a mechanism for subscribing to specific events from third-party",
             "B. Assist in the creation of automation projects by providing event-based activities.",
@@ -416,7 +416,7 @@
             "D. Provide a mechanism for starting processes on a scheduled basis from"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -428,7 +428,7 @@
             "D. Can have multiple initial states and only one final state."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -440,11 +440,11 @@
             "D. All \"Invoke Workflow File\" activities from the Main.xaml file should be marked with"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #39 - Topic 1: Which of the following demonstrates the correct syntax for using the Vb.Net \"If\" Operator?     Hide Solution Discussion 2",
+        "domanda": "Question #39 - Topic 1: Which of the following demonstrates the correct syntax for using the Vb.Net \"If\" Operator?",
         "risposte_possibili": [
             "A. If(condition1, valueIfTrue) ElseIf(valueIfFalse)",
             "B. valueIfTrue If condition1 Else valueIfFalse",
@@ -452,31 +452,31 @@
             "D. If(condition1, valueIfTrue, valueIfFalse)"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
         "domanda": "A developer creates a process that uses data from multiple sources and uploads it to an Orchestrator queue. The data originates from emails in different email inboxes and needs to be processed in the same order in which the email was received. To ensure the Queue Items are processed in the correct order, which property of the Add Queue Item activity should be used?     Hide Solution Discussion 2 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Postpone",
-            "B. Reference Most Voted",
+            "B. Reference",
             "C. ItemInformation",
             "D. Deadline"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
         "domanda": "Question #41 - Topic 1: A developer is working on an automation using the REFramework. Each transaction item represents a piece of client information. For each customer, the automated procedure must click the \"Generate Shipment Details\" button. This generates a table of shipment records for each customer. What type of exception occurs when the data is not accessible, the created table displays only the header row, and processing for that client must be halted?   Hide Solution Discussion 2 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. BusinessRuleException Most Voted",
+            "A. BusinessRuleException",
             "B. NullReferenceException",
             "C. ApplicationException",
             "D. SystemException"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -488,30 +488,23 @@
             "D. Activities, Connections, Triggers."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #43 - Topic 1: DRAG DROP - What are the steps to publish a project from UiPath Studio? Instructions: Drag the Description found on the \"Left\" and drop on the correct Step Sequence found on the \"Right\". Hide Solution Discussion 4 ",
-        "risposte_possibili": [],
-        "risposta_corretta": [
-            ""
-        ]
-    },
-    {
-        "domanda": "Question #44 - Topic 1: A developer examines a workflow in which filenames are stored within a collection. The collection is initialized with a single filename. When adding a new filename to the collection, which collection variable type will cause an error?     Hide Solution Discussion 5 Community vote distribution C (83%) B (17%) ",
+        "domanda": "Question #44 - Topic 1: ?A developer examines a workflow in which filenames are stored within a collection. The collection is initialized with a single filename. When adding a new filename to the collection, which collection variable type will cause an error?     Hide Solution Discussion 5 Community vote distribution C (83%) B (17%) ",
         "risposte_possibili": [
             "A. System.Collections.Generic.Dictionary",
             "B. System.Collections.Generic.List",
-            "C. System.Array Most Voted",
+            "C. System.Array",
             "D. System.Data.DataTable"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #45 - Topic 1: What is the default URL of the OCR server that runs the Computer Vision service?     Hide Solution Discussion 1",
+        "domanda": "Question #45 - Topic 1: What is the default URL of the OCR server that runs the Computer Vision service?",
         "risposte_possibili": [
             "A. https://server.uipath.com/",
             "B. https://computervision.uipath.com/",
@@ -519,35 +512,35 @@
             "D. https://cv.uipath.com/"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
         "domanda": "In the context of a linear process, implemented with REFramework, how many times will the process enter the Get Transaction Data state?    process is not transactional.  Hide Solution Discussion 4 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. 1 time.",
-            "B. 2 times. Most Voted",
+            "B. 2 times.",
             "C. The process will not enter the Get Transaction Data state because a linear",
             "D. Until there are no more queue items left unprocessed in Orchestrator."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
         "domanda": "Question #47 - Topic 1: A project built using REFramework pulls phone numbers from a database of employees and creates queue items for each one. Following processing, these elements must be added to a financing application. The queue item holding a phone number becomes invalid if a digit is accidentally left out because of a human mistake. As a requirement, queue items that contain partial numbers should not be accepted. What type of error should be thrown according to best practices?    Hide Solution Discussion 4 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. Business Exception Most Voted",
+            "A. Business Exception",
             "B. Application Exception",
             "C. Fatal Exception",
             "D. System Exception"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #48 - Topic 1: What is the correct method to check how many resources are utilized in a personal workspace in UiPath Orchestrator?  Manage Resources for the desired workspace.  Resources for the desired workspace.  Resources for the desired workspace.  See Usage for the desired workspace. Most Voted Hide Solution Discussion 3Community vote distribution D (100%) ",
+        "domanda": "Question #48 - Topic 1: What is the correct method to check how many resources are utilized in a personal workspace in UiPath Orchestrator?Community vote distribution D (100%) ",
         "risposte_possibili": [
             "A. Navigate to Tenant > Folders, click the Personal Workspaces tab, and then click",
             "B. Navigate to Tenant > Folders, click the All Workspaces tab, and then click Check",
@@ -555,7 +548,7 @@
             "D. Navigate to Tenant > Folders, click the Personal Workspaces tab, and then click"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -564,17 +557,10 @@
             "A. They are removed from the project.",
             "B. They are automatically resolved.",
             "C. They are replaced with compatible alternatives.",
-            "D. They are marked as unresolved. Most Voted"
+            "D. They are marked as unresolved."
         ],
         "risposta_corretta": [
-            "D 🗳"
-        ]
-    },
-    {
-        "domanda": "Question #50 - Topic 1: Question #50 - Topic 1: DRAG DROP - How should the computation of the signature be done for client apps that receiveOrchestrator requests and need to check their authenticity? Instructions: Drag the Description found on the left and drop on the correct Step Sequence found on the right. Hide Solution Discussion 1 Next Questions",
-        "risposte_possibili": [],
-        "risposta_corretta": [
-            ""
+            "D"
         ]
     },
     {
@@ -588,7 +574,7 @@
         "risposta_corretta": []
     },
     {
-        "domanda": "Question #52 - Topic 1: What is the purpose of credential stores in UiPath Orchestrator?  projects.   Assets for use in automation processes. Most Voted  and processes.Hide Solution Discussion 1 Community vote distribution C (100%) ",
+        "domanda": "Question #52 - Topic 1: What is the purpose of credential stores in UiPath Orchestrator?Hide Solution Discussion 1 Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. To store non-sensitive data and configuration settings for UiPath Studio",
             "B. To store Orchestrator event logs and related data for auditing purposes.",
@@ -596,11 +582,11 @@
             "D. To serve as a centralized location for storing pre-built automation workflows"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #53 - Topic 1: Which of the following statements is true about the existing UiPath Studio installation packages?   Assistant, and Robot.  Robot.  Assistant, and Robot. Most Voted Hide Solution Discussion 4Community vote distribution D (100%) ",
+        "domanda": "Question #53 - Topic 1: Which of the following statements is true about the existing UiPath Studio installation packages?Community vote distribution D (100%) ",
         "risposte_possibili": [
             "A. The Attended Robot installation package installs only the UiPath Robot.",
             "B. The Unattended Robot installation package installs only UiPath Studio,",
@@ -608,7 +594,7 @@
             "D. The Automation Developer installation package installs only UiPath Studio,"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -620,30 +606,30 @@
             "D. Initialization -> End Process"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #55 - Topic 1: What is the output type returned when using a Get Test Data Queue Item activity?    Hide Solution Discussion 4 Community vote distribution C (100%) ",
+        "domanda": "Question #55 - Topic 1: ?What is the output type returned when using a Get Test Data Queue Item activity?    Hide Solution Discussion 4 Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. QueueItem",
             "B. Object",
-            "C. Dictionary Most Voted"
+            "C. Dictionary"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
         "domanda": "Question #56 - Topic 1: Following UiPath best practices, which project structure is best-suited for complex processes in UiPath Studio? Hide Solution Discussion 6 Community vote distribution D (50%) B (50%) ",
         "risposte_possibili": [
             "A. Sequence",
-            "B. Flowchart Most Voted",
+            "B. Flowchart",
             "C. Global Exception Handler",
             "D. State Machine"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -655,7 +641,7 @@
             "D. dt.AsEnumerable. OrderByDescending(Function(x)"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -667,11 +653,11 @@
             "D. Invokes Java code, optionally passing it a list of input arguments."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #59 - Topic 1: Which of the following is an outcome of converting a personal workspace into a folder in UiPath Orchestrator?  the newly created folder and assigned the Personal Workspace Administrator role. Most Voted  folder and assigned the Folder Administrator role.  and the existing admin users are added by default.  Administrator role. Hide Solution Discussion 3Community vote distribution A (100%) ",
+        "domanda": "Question #59 - Topic 1: Which of the following is an outcome of converting a personal workspace into a folder in UiPath Orchestrator?Community vote distribution A (100%) ",
         "risposte_possibili": [
             "A. The owner of the initial workspace and the admin user are added by default to",
             "B. The owner of the initial workspace is added by default to the newly created",
@@ -679,11 +665,11 @@
             "D. The admin user is added by default to the newly created folder with the User"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #60 - Topic 1: In the Robotic Enterprise (RE) Framework, at which point should a developer log a clear message with the Logging Level set to \"Information,\" adhering to the best practices for automating a production-level process?     Hide Solution Discussion 3 🗳",
+        "domanda": "Question #60 - Topic 1: In the Robotic Enterprise (RE) Framework, at which point should a developer log a clear message with the Logging Level set to \"Information,\" adhering to the best practices for automating a production-level process?",
         "risposte_possibili": [
             "A. Whenever an exception is caught in a Catch block.",
             "B. Whenever data is fetched from external sources.",
@@ -691,23 +677,23 @@
             "D. Whenever the robot encounters an error on a Queue Item."
         ],
         "risposta_corretta": [
-            "B -"
+            "B"
         ]
     },
     {
         "domanda": "A developer has defined a variable named “CurrentDate” of type DateTime. Which of the following expressions can be used to show what hour was 12 hours prior to the date from the variable?     Hide Solution Discussion 2 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. DateTime.SubtractHours(CurrentDate, 12).Hour",
-            "B. CurrentDate.AddHours(–12).Hour Most Voted",
+            "B. CurrentDate.AddHours(–12).Hour",
             "C. CurrentDate SubtractHours(12).Hour",
             "D. DateTime.AddHours(CurrentDate, –12).Hour"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #62 - Topic 1: A developer needs to use the REFramework to automate a business process that involves processing transactions within an Excel table. Each transaction in the table should follow the same steps for processing and queues cannot be used as there is no Orchestrator in the environment. Which variable type is best suited for TransactionItem in this scenario?     Hide Solution Discussion 1 ",
+        "domanda": "Question #62 - Topic 1: ?A developer needs to use the REFramework to automate a business process that involves processing transactions within an Excel table. Each transaction in the table should follow the same steps for processing and queues cannot be used as there is no Orchestrator in the environment. Which variable type is best suited for TransactionItem in this scenario?     Hide Solution Discussion 1 ",
         "risposte_possibili": [
             "A. System.Data DataTable",
             "B. UiPath.Core.QueueItem",
@@ -715,7 +701,7 @@
             "D. System.Data.DataRow[]"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
@@ -724,14 +710,14 @@
             "A. Native",
             "B. Text attribute",
             "C. Default",
-            "D. Full text Most Voted"
+            "D. Full text"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #64 - Topic 1: Which of the following best describes the Alerts panel?  error reports every ten minutes, or as daily reports.    bell. Most Voted Hide Solution Discussion 5Community vote distribution D (78%) B (22%) ",
+        "domanda": "Question #64 - Topic 1: Which of the following best describes the Alerts panel?Community vote distribution D (78%) B (22%) ",
         "risposte_possibili": [
             "A. A panel that displays summaries of the alerts you subscribed to, received as",
             "B. A panel that displays alerts as they occur.",
@@ -739,11 +725,11 @@
             "D. A panel that displays the most severe five alerts, accessible from the Alerts"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #65 - Topic 1: Once “Library A” has been imported as a dependency in the current project, how can the UI Object Repository defined in “Library A” be accessed?    the Process for it to become available.  Hide Solution Discussion 1",
+        "domanda": "Question #65 - Topic 1: Once “Library A” has been imported as a dependency in the current project, how can the UI Object Repository defined in “Library A” be accessed?",
         "risposte_possibili": [
             "A. The Object Repository cannot be passed between a Process and a Library.",
             "B. The Object Repository is only available in a Library.",
@@ -751,7 +737,7 @@
             "D. The Object Repository will automatically be available in the Process."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -763,11 +749,11 @@
             "D. The selected area is treated as a single UI element, with no further analysis of"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #67 - Topic 1: How does UiPath Integration Service benefit automation developers?  and enabling faster integration into SaaS platforms.  capabilities, delivering a more manageable and user-friendly approach, allowing users to streamline their processes efficiently and effectively facilitating a more rapid integration process.  automation, enabling seamless integration with third-party applications.  using APIs. Hide Solution Discussion 1 ",
+        "domanda": "Question #67 - Topic 1: ?How does UiPath Integration Service benefit automation developers?  and enabling faster integration into SaaS platforms.  capabilities, delivering a more manageable and user-friendly approach, allowing users to streamline their processes efficiently and effectively facilitating a more rapid integration process.  automation, enabling seamless integration with third-party applications.  using APIs. Hide Solution Discussion 1 ",
         "risposte_possibili": [
             "A. By standardizing authorization and authentication, managing API connections,",
             "B. By substituting the requirement for API automation with UI automation",
@@ -775,7 +761,7 @@
             "D. By enabling developers to create custom UI elements for applications without"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -787,35 +773,35 @@
             "D. Activities, Connectors, and Annotations."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #69 - Topic 1: A developer has created a string array variable as shown below: UserNames = {“Jane”, “Jack”, “Jill”, “John”} Which expression should the developer use in a Log Message activity to print the elements of the array separated by the string “,”?     Hide Solution Discussion 1Community vote distribution A (100%) ",
+        "domanda": "Question #69 - Topic 1: A developer has created a string array variable as shown below: UserNames = {“Jane”, “Jack”, “Jill”, “John”} Which expression should the developer use in a Log Message activity to print the elements of the array separated by the string “,”?Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. String.Join(“,”, UserNames) Most Voted",
+            "A. String.Join(“,”, UserNames)",
             "B. String.Concat(UserNames, “,”)",
             "C. String.Concat(“,”, UserNames)",
             "D. String.Join(UserNames, “,”)"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
         "domanda": "Which activity can be used to transition a Background Process to Foreground?     Hide Solution Discussion 3 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. Use Foreground Most Voted",
+            "A. Use Foreground",
             "B. Activate",
             "C. Maximize Window",
             "D. Set Focus"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #71 - Topic 1: When configuring the Max # of retries for the queue in Orchestrator to “1” for your process, and the queue has 5 transaction items. At runtime, the first transaction item throws a Business Rule Exception. How does the process proceed?   Voted   Hide Solution Discussion 1 Community vote distribution B (100%) ",
+        "domanda": "Question #71 - Topic 1: ?When configuring the Max # of retries for the queue in Orchestrator to “1” for your process, and the queue has 5 transaction items. At runtime, the first transaction item throws a Business Rule Exception. How does the process proceed?   Voted   Hide Solution Discussion 1 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Transaction is retried only one time",
             "B. Transaction is not retried but remaining transactions continue processing Most",
@@ -823,19 +809,19 @@
             "D. Transaction is retried multiple times until processed successfully."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #72 - Topic 1: At indication time, the Strict Selector has the following functionalities available:    Hide Solution Discussion 3 Community vote distribution A (100%) ",
+        "domanda": "Question #72 - Topic 1: At indication time, the Strict Selector has the following functionalities available:  ?    Hide Solution Discussion 3 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. Open in UiExplorer, Copy to clipboard, Show all matches. Most Voted",
+            "A. Open in UiExplorer, Copy to clipboard, Show all matches.",
             "B. Accuracy, Open in UiExplorer, Copy to clipboard, Show all matches.",
             "C. Ignore text, Copy to clipboard, Show all matches.",
             "D. Refresh, Open in UiExplorer, Copy to clipboard."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -843,15 +829,15 @@
         "risposte_possibili": [
             "A. Input Element",
             "B. Selector",
-            "C. Activate Most Voted",
+            "C. Activate",
             "D. Delay before"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #74 - Topic 1: What is the role of connections in the UiPath Integration Service?  compatibility with the external application.  applications using the server-side triggers.  applications using the authentication process of the UI automation provider.  applications using the authentication process of the API provider. Most Voted Hide Solution Discussion 2Community vote distribution D (100%) ",
+        "domanda": "Question #74 - Topic 1: What is the role of connections in the UiPath Integration Service?Community vote distribution D (100%) ",
         "risposte_possibili": [
             "A. Connections establish tasks and exchanges based on a connector’s",
             "B. Connections establish tasks and exchanges between users and external",
@@ -859,47 +845,47 @@
             "D. Connections establish tasks and exchanges between users and external"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #75 - Topic 1: What status needs to be selected in the Set Transaction Status activity in UiPath Studio so that the respective Queue Item will be retried?     Hide Solution Discussion 1 Community vote distributionD (100%) ",
+        "domanda": "Question #75 - Topic 1: What status needs to be selected in the Set Transaction Status activity in UiPath Studio so that the respective Queue Item will be retried?D (100%) ",
         "risposte_possibili": [
             "A. Retried",
             "B. Abandoned",
             "C. Postponed",
-            "D. Failed Most Voted"
+            "D. Failed"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
         "domanda": "A developer intends to enter text into an input field using a combination of a string and a hotkey. The input action should take place within a hidden or minimized window. Which input method(s) can be used individually for the Type Into activity?     Hide Solution Discussion 5 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. Windows Messages only. Most Voted",
+            "A. Windows Messages only.",
             "B. Same as App/Browser and Simulate.",
             "C. Simulate and Window Messages.",
             "D. Simulate only."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #77 - Topic 1: Which activity should a developer use to add custom information to logs related to transactions for tracing purposes?     Hide Solution Discussion 1 Community vote distribution A (100%) ",
+        "domanda": "Question #77 - Topic 1: ?Which activity should a developer use to add custom information to logs related to transactions for tracing purposes?     Hide Solution Discussion 1 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. Add Log Fields Most Voted",
+            "A. Add Log Fields",
             "B. Update Logs",
             "C. Add Custom Log",
             "D. Build Log"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #78 - Topic 1: What advantages do pre-built connectors in UiPath Integration Service offer?  exclusively with connectors. applications.  standardized method.  integration across all UiPath Platform product solutions. Hide Solution Discussion ",
+        "domanda": "Question #78 - Topic 1: What advantages do pre-built connectors in UiPath Integration Service offer? applications.  standardized method.  integration across all UiPath Platform product solutions. Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Reducing the need for Ul and API automation, allowing developers to work",
             "B. Providing a fully customizable catalog of connectors for developing proprietary",
@@ -907,11 +893,11 @@
             "D. Simplified integration with popular applications, faster deployment, and"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #79 - Topic 1: Which expression correctly converts the string variable “DateString” with the value “03/03/2023 16:23:11” into a Date Time variable?  CultureInfo.InvariantCultue}  CultureInfo.InvariantCulture} Most Voted  CultureInfo.InvariantCulture}  CultureInfo.InvariantCultue}Hide Solution Discussion 2 Community vote distribution B (100%) ",
+        "domanda": "Question #79 - Topic 1: Which expression correctly converts the string variable “DateString” with the value “03/03/2023 16:23:11” into a Date Time variable?Hide Solution Discussion 2 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. DateTime.ParseExact(DateString, “mm/dd/yyyy HH:mm:ss”,",
             "B. DateTime.ParseExact(DateString, “dd/MM/yyyy HH:mm:ss”,",
@@ -919,11 +905,11 @@
             "D. DateTime.ParseExact(DateString, “MM/dd/yyyy hh:mm:ss”,"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #80 - Topic 1: What distinguishes the Settings sheet from the Assets sheet in the “Config.xisx’ file?  contains hard-coded values.  Assets sheet contains only Credential Assets stored in Orchestrator  of Orchestrator Assets except those of type Credential  of Orchestrator Assets including those of type Credential Most Voted Hide Solution Discussion 2Community vote distribution D (100%) ",
+        "domanda": "Question #80 - Topic 1: What distinguishes the Settings sheet from the Assets sheet in the “Config.xisx’ file?Community vote distribution D (100%) ",
         "risposte_possibili": [
             "A. Settings sheet contains Credential Assets stored in Orchestrator. Assets sheet",
             "B. Settings sheet contains only values used for the initialization of applications.",
@@ -931,19 +917,19 @@
             "D. Settings sheet contains hard-coded values. Assets sheet contains all names"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #81 - Topic 1: A developer defines new log fields using the Add Log Fields activity. When will the custom log fields stop being added to the robot execution logs?     Hide Solution Discussion 1 Community vote distributionB (100%) ",
+        "domanda": "Question #81 - Topic 1: A developer defines new log fields using the Add Log Fields activity. When will the custom log fields stop being added to the robot execution logs?B (100%) ",
         "risposte_possibili": [
             "A. When an Exception is caught and handled.",
-            "B. When a Remove Log Fields activity is used to remove them. Most Voted",
+            "B. When a Remove Log Fields activity is used to remove them.",
             "C. When a Log Message activity is executed with Log Level = Warm or higher.",
             "D. When the first Log Message activity is executed."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -955,7 +941,7 @@
             "D. When a particular state contains complex conditional logic."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -967,11 +953,11 @@
             "D. Range argument accepts complex range values or “All”."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #84 - Topic 1: What actions must be manually selected in the App/Web Recorder before recording a step?  Send keyboard shortcuts using your keyboard. Select an item from a drop-down.  Hover over an element using the Hover activity. Highlight an element using the Highlight activity. Most Voted Hover over an element using the Hover activity. Click on buttons, links, and other clickable elements such as icons or images. Type text in a text area such as a text box. Select or clear a check box.  Type text in a text area such as a text box Select or clear a check box. Send keyboard shortcuts using your keyboard. Select an item from a drop-down. Hide Solution Discussion 4 Community vote distribution B (100%) ",
+        "domanda": "Question #84 - Topic 1: What actions must be manually selected in the App/Web Recorder before recording a step? Hover over an element using the Hover activity. Click on buttons, links, and other clickable elements such as icons or images. Type text in a text area such as a text box. Select or clear a check box.  Type text in a text area such as a text box Select or clear a check box. Send keyboard shortcuts using your keyboard. Select an item from a drop-down. Hide Solution Discussion 4 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Select or clear a check box.",
             "B. Copy text using the Get Text activity.",
@@ -979,7 +965,7 @@
             "D. Click on buttons, links, and other clickable elements such as icons or images."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -991,11 +977,11 @@
             "D. Cisco, Amazon Security Services, Google Credentials, Microsoft SCS, IBM"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #86 - Topic 1: Which of the following statements accurately describes the primary components of a State Machine in a workflow?   and Input/Output Arguments. Actions.  Transitions, and Actions. Most Voted Hide Solution Discussion 3 Community vote distribution D (100%) ",
+        "domanda": "Question #86 - Topic 1: Which of the following statements accurately describes the primary components of a State Machine in a workflow? Actions.  Transitions, and Actions. Most Voted Hide Solution Discussion 3 Community vote distribution D (100%) ",
         "risposte_possibili": [
             "A. A State Machine is composed of States, Triggers, and Loops.",
             "B. A State Machine comprises three main components: Sequences, Flowcharts,",
@@ -1003,30 +989,23 @@
             "D. A State Machine consists of four primary components: States, Triggers,"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #87 - Topic 1: What is a pre-requisite for running InitAllApplications TestCase?     Hide Solution Discussion 1Community vote distribution A (100%) ",
+        "domanda": "Question #87 - Topic 1: What is a pre-requisite for running InitAllApplications TestCase?Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. Invoke InitAllSettings XAML file in Given. Most Voted",
+            "A. Invoke InitAllSettings XAML file in Given.",
             "B. Invoke KillAllProcesses XAML file in Given.",
             "C. Invoke SetTransactionStatus XAML file in Given.",
             "D. Invoke CloseAllApplications XAML file in Given."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #88 - Topic 1: Question #88 - Topic 1: DRAG DROP - The provided exhibit displays the representation of the “Deadline” field using the yyyy-mm-dd format. In what order should the Queue Items be processed by a single robot executing a Performer workflow?Hide Solution Discussion 4",
-        "risposte_possibili": [],
-        "risposta_corretta": [
-            ""
-        ]
-    },
-    {
-        "domanda": "Question #89 - Topic 1: What is the functionality of the Include Subfolders filter in the Monitoring pages when a modern folder is selected?  are displayed.  displayed data. Reveal Solution Discussion 2 ",
+        "domanda": "Question #89 - Topic 1: What is the functionality of the Include Subfolders filter in the Monitoring pages when a modern folder is selected?  displayed data. Reveal Solution Discussion 2 ",
         "risposte_possibili": [
             "A. It allows you to select whether the contents of the selected folder’s subfolders",
             "B. It enables you to sort the displayed data based on job priorities.",
@@ -1044,7 +1023,7 @@
             "D. Select"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -1056,11 +1035,11 @@
             "D. It allows automatons to run on the user machine, in a different Windows"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #92 - Topic 1: What is a prerequisite for performing Remote Debugging using a Remote Machine Connection?  later. tenant.  machine. Hide Solution Discussion ",
+        "domanda": "Question #92 - Topic 1: What is a prerequisite for performing Remote Debugging using a Remote Machine Connection? tenant.  machine. Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Studio, the remote robot, and Orchestrator are running version 2021.10 or",
             "B. The same user must be signed in Studio and the remote robot.",
@@ -1068,19 +1047,19 @@
             "D. TCP/IP connectivity exists between the Studio machine and the remote"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #93 - Topic 1: Question #93 - Topic 1: A developer has created a variable of type List of Strings named “UserList” and initialized it with an empty list: “UserList = new List(Of String)”. What is printed in the log message after the following Invoke Code is executed?    Hide Solution Discussion 3Community vote distribution C (100%) ",
+        "domanda": "Question #93 - Topic 1: Question #93 - Topic 1: A developer has created a variable of type List of Strings named “UserList” and initialized it with an empty list: “UserList = new List(Of String)”. What is printed in the log message after the following Invoke Code is executed?Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. 0",
             "B. 2",
-            "C. Object reference not set to an instance exception is thrown Most Voted",
+            "C. Object reference not set to an instance exception is thrown",
             "D. System Argument Exception is thrown"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -1092,11 +1071,11 @@
             "D. Test Data Queue"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #95 - Topic 1: What is the purpose of the Capture All Elements feature in Object Repository?  using the Computer Vision technology.  Vision technology Most Voted  technology.  simultaneously using the Computer Vision technology. Hide Solution Discussion 1Community vote distribution B (100%) ",
+        "domanda": "Question #95 - Topic 1: What is the purpose of the Capture All Elements feature in Object Repository?Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. To capture all elements of an application from multiple screens simultaneously",
             "B. To capture ail the available elements of an application using the Computer",
@@ -1104,7 +1083,7 @@
             "D. To capture the selected elements of an application from multiple screens"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -1118,7 +1097,7 @@
         "risposta_corretta": []
     },
     {
-        "domanda": "Question #97 - Topic 1: In an RPA Testing project, you created the mock “MySequencemock” for the file “MySequence”. You have the update “MySequence” and add a Log Message activity and a Verify Expression activity. What will happen to “MySequencemock” file when you save the project, assuming that the file is closed?   Most Voted   file. Hide Solution Discussion 2 Community vote distribution B (100%) ",
+        "domanda": "Question #97 - Topic 1: ?In an RPA Testing project, you created the mock “MySequencemock” for the file “MySequence”. You have the update “MySequence” and add a Log Message activity and a Verify Expression activity. What will happen to “MySequencemock” file when you save the project, assuming that the file is closed?   Most Voted   file. Hide Solution Discussion 2 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Only the Verify Expression activity will be added to the mock file.",
             "B. The changes made in “MySequence” workflow file are applied to the mock file.",
@@ -1126,11 +1105,11 @@
             "D. The changes made in “MySequence” workflow file are not applied to the mock"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #98 - Topic 1: Question #98 - Topic 1: Which of the following options is correct regarding the below Object Repository tree structure?  Two Screens - Five UI Elements Most Voted  Two Applications - Five UI Elements Two UI Elements - Five Screens  One Application - Two Screens - Five UI Elements Hide Solution Discussion 4 Community vote distribution A (100%) ",
+        "domanda": "Question #98 - Topic 1: Question #98 - Topic 1: ? Two UI Elements - Five Screens  One Application - Two Screens - Five UI Elements Hide Solution Discussion 4 Community vote distribution A (100%) ",
         "risposte_possibili": [
             "A. One Application -",
             "B. One Screen -",
@@ -1138,11 +1117,11 @@
             "D. One Library -"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #99 - Topic 1: Question #99 - Topic 1: Question #99 - Topic 1: A developer wants to add items to a list of strings using the Invoke Method activity. The list is declared as follows:The Invoke Method activity has the following properties: The Parameters property is as follows:Based on the information shown in the exhibits what is the outcome of the Invoke Method activity?   Voted   Hide Solution Discussion 3 Community vote distribution B (100%)",
+        "domanda": "Question #99 - Topic 1: Question #99 - Topic 1: Question #99 - Topic 1: A developer wants to add items to a list of strings using the Invoke Method activity. The list is declared as follows:  ?",
         "risposte_possibili": [
             "A. Invoke Method activity will throw an error.",
             "B. Colors will contain items in the following order: “Red”, “Green”, “Yellow”. Most",
@@ -1150,35 +1129,35 @@
             "D. Colors will contain items in the following order: “Red”, “Green”"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #100 - Topic 1: When encountering an ApplicationException, what occurs if the developer chooses InvalidOperationException as the exception handler within the Catches section of the Try Catch activity?     Hide Solution Discussion 6Community vote distribution A (83%) B (17%) ",
+        "domanda": "Question #100 - Topic 1: When encountering an ApplicationException, what occurs if the developer chooses InvalidOperationException as the exception handler within the Catches section of the Try Catch activity?Community vote distribution A (83%) B (17%) ",
         "risposte_possibili": [
-            "A. A runtime error occurs and the Finally block is not executed. Most Voted",
+            "A. A runtime error occurs and the Finally block is not executed.",
             "B. The Finally block is executed and the Catches section catches the exception.",
             "C. No exception is thrown and the Finally block executes.",
             "D. No exceptions are happening and the workflow continues to execute."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #101 - Topic 1: In the context of the REFramework, if the OrchestratorQueueName key is present in both the Settings and Assets sheets, but an asset with the corresponding name is not present in Orchestrator, what will be the behavior at run time?   the flow will throw in Get Transaction Data workflow.   config dictionary. Hide Solution Discussion 5Community vote distribution C (100%) ",
+        "domanda": "Question #101 - Topic 1: In the context of the REFramework, if the OrchestratorQueueName key is present in both the Settings and Assets sheets, but an asset with the corresponding name is not present in Orchestrator, what will be the behavior at run time?Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. The flow will use the value from the Settings sheets since the asset is missing.",
             "B. The “OrchestratorQueueName” key is not added to the config dictionary and",
-            "C. The flow will throw an exception in initAllSettings workflow. Most Voted",
+            "C. The flow will throw an exception in initAllSettings workflow.",
             "D. An empty string will be saved for the “OrchestratorQueueName\" key in the"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #102 - Topic 1: Question #102 - Topic 1: Question #102 - Topic 1: Question #102 - Topic 1: Question #102 - Topic 1: Question #102 - Topic 1: Review the following graphics:An animation on the web page never completely loads but the element indicated in theClick activity does load within the specified timeout duration. What occurs when this Click activity executes?     Hide Solution Discussion ",
+        "domanda": "Question #102 - Topic 1: Question #102 - Topic 1: Question #102 - Topic 1: Question #102 - Topic 1: Question #102 - Topic 1: Question #102 - Topic 1: Review the following graphics:  ?Click activity does load within the specified timeout duration. What occurs when this Click activity executes?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Element is clicked once the element is fully loaded.",
             "B. Continues to the next activity after 30 seconds without clicking on the element.",
@@ -1186,28 +1165,23 @@
             "D. Timeout error occurs without clicking on the element."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #103 - Topic 1: Question #103 - Topic 1: Question #103 - Topic 1: Question #103 - Topic 1: Question #103 - Topic 1: Question #103 - Topic 1: Review the following graphics:If the automation is executed and Notepad.exe is not running, which Log Message text value is contained in the Output panel?  Hide Solution Discussion 5 Community vote distribution D (67%) A (33%) ",
+        "domanda": "Question #103 - Topic 1: Question #103 - Topic 1: Question #103 - Topic 1: Question #103 - Topic 1: Question #103 - Topic 1: Question #103 - Topic 1: Review the following graphics:  ?  Hide Solution Discussion 5 Community vote distribution D (67%) A (33%) ",
         "risposte_possibili": [
             "A. ApplicationNotFoundException",
             "B. SelectorNotFoundException",
             "C. Try",
-            "D. Exception Most Voted"
+            "D. Exception"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #104 - Topic 1: HOTSPOT - A developer aims to employ the REFramework for automating a business process that involves a TransactionData collection (DataTable) comprising vendor names and addresses. Instructions: Choose the appropriate variable type for the TransactionItem from the provided drop-down list in the following exhibit.Reveal Solution Discussion ",
-        "risposte_possibili": [],
-        "risposta_corretta": []
-    },
-    {
-        "domanda": "Question #105 - Topic 1: Question #105 - Topic 1: Question #105 - Topic 1: Question #105 - Topic 1: Question #105 - Topic 1: A developer is using the REFramework template to automate a process. In “SetTransactionStatus” file, there is the following sequence of activities, where the last Log Message activity was added by the developer:The configuration for Add Log Fields and Remove Log Fields activities are shown below: Add transaction log fields (Success)Remove transaction log fields (Success)The developer runs the process and notices the argument values for the first transaction are: in_TransacationID = “07/18/2023 10:27:29” io_TransactionNumber = 1 in_TransactionField1 = “UI235-80” in_TransactionField2 = “Update Request” Which of the following Log Message Details will be displayed when executing the activity Log Message Completed for the first transaction, considering it is successful? Hide Solution Discussion 2 ",
+        "domanda": "Question #105 - Topic 1: Question #105 - Topic 1: Question #105 - Topic 1: Question #105 - Topic 1: Question #105 - Topic 1: A developer is using the REFramework template to automate a process. In “SetTransactionStatus” file, there is the following sequence of activities, where the last Log Message activity was added by the developer:  ? Hide Solution Discussion 2 ",
         "risposte_possibili": [
             "A.",
             "B.",
@@ -1215,11 +1189,11 @@
             "D."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #106 - Topic 1: Question #106 - Topic 1: Given a database “dt” with the following header: “Surname, Address, Zip Code, Given Name, Phone Number”. What is the correct configuration of the Invoke Method activity so that the resulting header will be: “Surname, Given Name, Address, Zip Code, Phone Number”.   Most Voted Hide Solution Discussion 3 Community vote distribution C (100%) ",
+        "domanda": "Question #106 - Topic 1: Question #106 - Topic 1: Given a database “dt” with the following header: “Surname, Address, Zip Code, Given Name, Phone Number”. What is the correct configuration of the Invoke Method activity so that the resulting header will be: “Surname, Given Name, Address, Zip Code, Phone Number”.  ? Hide Solution Discussion 3 Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A.",
             "B.",
@@ -1227,11 +1201,11 @@
             "D."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #107 - Topic 1: Considering that the attached data table is stored in a variable called “dt”:Which of the following expressions will throw an exception during execution?    dt.AsEnumerable.FirstOrDefault(Function(x)x(“Item”).ToString.Equals(“strawberry ”))  Voted Hide Solution Discussion 1 Community vote distribution D (100%) ",
+        "domanda": "Question #107 - Topic 1: Considering that the attached data table is stored in a variable called “dt”:  ?Which of the following expressions will throw an exception during execution?    dt.AsEnumerable.FirstOrDefault(Function(x)x(“Item”).ToString.Equals(“strawberry ”))  Voted Hide Solution Discussion 1 Community vote distribution D (100%) ",
         "risposte_possibili": [
             "A. dt.AsEnumerable.Where(Function(x)x(“Item”).ToString.Equals(“strawberry”))",
             "B. dt.AsEnumerable.Any(Function(x)x(“Item”).ToString.Equals(“strawberry”))",
@@ -1239,11 +1213,11 @@
             "D. dt.AsEnumerable.First(Function(x)x(“Item”).ToString.Equals(“strawberry”)) Most"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #108 - Topic 1: Which of the following statements correctly illustrates using LINQ to process data in a UiPath project?  listOfIntegers.Sum(Function(x) x). Most Voted  addresses by writing listOfStrings.FilterEmails().ToList().  dataTable.ToJSON().  listOfStrings.Max(Function(x)x.Length()). Hide Solution Discussion 1 Community vote distribution A (100%) ",
+        "domanda": "Question #108 - Topic 1: ?Which of the following statements correctly illustrates using LINQ to process data in a UiPath project?  listOfIntegers.Sum(Function(x) x). Most Voted  addresses by writing listOfStrings.FilterEmails().ToList().  dataTable.ToJSON().  listOfStrings.Max(Function(x)x.Length()). Hide Solution Discussion 1 Community vote distribution A (100%) ",
         "risposte_possibili": [
             "A. Utilizing LINQ to find the total sum of integers in a list by writing",
             "B. Applying LINQ to filter out emails in a list of strings containing multiple email",
@@ -1251,11 +1225,11 @@
             "D. Using LINQ to identify the longest string in a list of strings by writing"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #109 - Topic 1: In UIPath Orchestrator, when managing multiple Jobs in a queue, which feature allows operators to dictate the execution sequence by assigning the importance of each Job?     Hide Solution Discussion ",
+        "domanda": "Question #109 - Topic 1: ?In UIPath Orchestrator, when managing multiple Jobs in a queue, which feature allows operators to dictate the execution sequence by assigning the importance of each Job?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Job Execution Order",
             "B. Job Queuing Strategy",
@@ -1263,18 +1237,11 @@
             "D. Job Priority Levels"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #110 - Topic 1: DRAG DROP - What is the correct sequence of steps in a REFramework project that is linked to Orchestrator if an application exception occurs on a Queue Item in the Process Transaction state? Instructions: Drag the Description found on the “Left” and drop on the correct Step Sequence found on the “Right”.Hide Solution Discussion ",
-        "risposte_possibili": [],
-        "risposta_corretta": [
-            ""
-        ]
-    },
-    {
-        "domanda": "Question #111 - Topic 1: When developing a new project using REFramework, logging in to multiple applications is required. What is the recommended location to accomplish this task?     Hide Solution Discussion ",
+        "domanda": "Question #111 - Topic 1: ?When developing a new project using REFramework, logging in to multiple applications is required. What is the recommended location to accomplish this task?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. InitAllApplications.xaml",
             "B. InitAllSettings.xaml",
@@ -1282,11 +1249,11 @@
             "D. FirstRun.xaml"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #112 - Topic 1: How can a process be converted from a foreground process to a background process?  “Background” tag to the process name as long as it does/does not contain Ui interaction. You need to go to the Project Settings and modify the name of the process.  contain persistence activities.You need to go to the Project Settings window and set the Supports Persistence toggle to No.  UiAutomation package dependency as long as it does/does not contain UI interaction.  contain activities with UI interaction. You need to go to the Project Settings window and set the Starts in Background toggle to Yes. Hide Solution Discussion ",
+        "domanda": "Question #112 - Topic 1: How can a process be converted from a foreground process to a background process?You need to go to the Project Settings window and set the Supports Persistence toggle to No.  UiAutomation package dependency as long as it does/does not contain UI interaction.  contain activities with UI interaction. You need to go to the Project Settings window and set the Starts in Background toggle to Yes. Hide Solution Discussion ",
         "risposte_possibili": [
             "A. A process may be turned into a Background Process by adding a",
             "B. A process may be turned into a Background Process as long as it does not",
@@ -1294,7 +1261,7 @@
             "D. A process may be turned into a Background Process as long as it does not"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -1306,18 +1273,11 @@
             "D. By automatically updating background processes."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #114 - Topic 1: DRAG DROP - What is the correct execution order of the State activity sections? Instructions: Drag the Description found on the “Left” and drop on the correct Execution Order found on the “Right”. Hide Solution Discussion 2",
-        "risposte_possibili": [],
-        "risposta_corretta": [
-            ""
-        ]
-    },
-    {
-        "domanda": "Question #115 - Topic 1: What are the two types of elements that can be included in an Object Repository?     Hide Solution Discussion 3",
+        "domanda": "Question #115 - Topic 1: What are the two types of elements that can be included in an Object Repository?",
         "risposte_possibili": [
             "A. Local elements and library elements.",
             "B. Dynamic elements and static elements.",
@@ -1325,7 +1285,7 @@
             "D. UI elements and non-UI elements."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -1337,11 +1297,11 @@
             "D. message = if(number mod 2 = 0, {“Odd number”} else {Even number”})"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #117 - Topic 1: What is the role of server-side event triggers in UiPath Integration Service?   protocols.  Service catalog.  insertions or deletions in other systems. Hide Solution Discussion 1",
+        "domanda": "Question #117 - Topic 1: What is the role of server-side event triggers in UiPath Integration Service?",
         "risposte_possibili": [
             "A. To start UiPath processes only when users interact with specific UI elements.",
             "B. To manage API connections and authorize usage across different security",
@@ -1349,7 +1309,7 @@
             "D. To start UiPath processes by configuring events such as data updates,"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -1361,31 +1321,31 @@
             "D. An error rooted in the fact that certain data which the automation project"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
         "domanda": "Question #119 - Topic 1: A developer designed a process in the REFramework using Orchestrator queues. In which state(s) will be the status updated for each Transaction Item in the queue?   Hide Solution Discussion 1 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Process Transaction only.",
-            "B. Get Transaction Data and Process Transaction. Most Voted",
+            "B. Get Transaction Data and Process Transaction.",
             "C. Initialization and Process Transaction.",
             "D. Initialization and Get Transaction Data."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #120 - Topic 1: How are mock files organized in an automation project structure?     Hide Solution Discussion 2Community vote distribution B (100%) ",
+        "domanda": "Question #120 - Topic 1: How are mock files organized in an automation project structure?Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. They are stored in a dedicated folder for mock testing configuration.",
-            "B. They are stored in a separate folder called “Mocks”. Most Voted",
+            "B. They are stored in a separate folder called “Mocks”.",
             "C. They are stored in the same folder as the source workflow.",
             "D. They are stored in a nested structure based on the source workflow’s file tree."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -1397,11 +1357,11 @@
             "D. Every time the robot encounters an error processing a Queue Item."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #122 - Topic 1: The “arrayOfPointsGainedByParticipant” Object array is created and initialized with the following values: {“7”, “4”, “1”}. Which is the value and data type returned, at runtime, by arrayOfPointsGainedByParticipant(1)?  Data Type: Object  Data Type: String  Data Type: String  Data Type: Object Hide Solution Discussion 2 ",
+        "domanda": "Question #122 - Topic 1: ?The “arrayOfPointsGainedByParticipant” Object array is created and initialized with the following values: {“7”, “4”, “1”}. Which is the value and data type returned, at runtime, by arrayOfPointsGainedByParticipant(1)?  Data Type: Object  Data Type: String  Data Type: String  Data Type: Object Hide Solution Discussion 2 ",
         "risposte_possibili": [
             "A. Value: 4 -",
             "B. Value: 7 -",
@@ -1409,7 +1369,7 @@
             "D. Value: 7 -"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
@@ -1418,14 +1378,14 @@
             "A. Locals Panel and Watch Panel.",
             "B. Immediate Panel and Watch Panel.",
             "C. Watch Panel and Breakpoint Panel.",
-            "D. Locals Panel and Immediate Panel. Most Voted"
+            "D. Locals Panel and Immediate Panel."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #124 - Topic 1: A developer intends to incorporate a Flow Switch activity within a Flowchart. What is a characteristic of this activity?    Most VotedHide Solution Discussion 2 Community vote distribution C (100%) ",
+        "domanda": "Question #124 - Topic 1: A developer intends to incorporate a Flow Switch activity within a Flowchart. What is a characteristic of this activity?Hide Solution Discussion 2 Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. The Flow Switch activity is designed solely for usage in sequence workflows.",
             "B. Two default cases can be assigned in the Default section.",
@@ -1433,11 +1393,11 @@
             "D. Default cases can be numbered."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #125 - Topic 1: “Process A” is scheduled to run at 2:00 PM using a time trigger with the Schedule ending of job execution feature configured to stop the job after 20 minutes. Assuming that the robots are busy and “Process A” is queued until 2:05 PM, at what time will “Process A” be stopped?     Hide Solution Discussion 1",
+        "domanda": "Question #125 - Topic 1: “Process A” is scheduled to run at 2:00 PM using a time trigger with the Schedule ending of job execution feature configured to stop the job after 20 minutes. Assuming that the robots are busy and “Process A” is queued until 2:05 PM, at what time will “Process A” be stopped?",
         "risposte_possibili": [
             "A. 2:20 PM",
             "B. 2:25 PM",
@@ -1445,7 +1405,7 @@
             "D. 2:28 PM"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -1453,27 +1413,27 @@
         "risposte_possibili": [
             "A. Then",
             "B. Setup",
-            "C. When Most Voted",
+            "C. When",
             "D. Given"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #127 - Topic 1: A developer is using a Type Into activity with the Input Method set to Simulate. Which property needs to be enabled for the activity to execute even if the target UI element is deactivated or read-only?     Hide Solution Discussion 4 Community vote distribution B (100%) ",
+        "domanda": "Question #127 - Topic 1: ?A developer is using a Type Into activity with the Input Method set to Simulate. Which property needs to be enabled for the activity to execute even if the target UI element is deactivated or read-only?     Hide Solution Discussion 4 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Deselect at end.",
-            "B. Alter disabled element. Most Voted",
+            "B. Alter disabled element.",
             "C. Activate.",
             "D. Click before typing."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #128 - Topic 1: Which of the following options is true about the types of robot installation?  unattended automations. automations.  testing automations, and running attended automations.  automations, and running attended automations. Hide Solution Discussion 1 ",
+        "domanda": "Question #128 - Topic 1: Which of the following options is true about the types of robot installation? automations.  testing automations, and running attended automations.  automations, and running attended automations. Hide Solution Discussion 1 ",
         "risposte_possibili": [
             "A. Both the service and the user modes are recommended for running",
             "B. The service mode is the recommended option for running unattended",
@@ -1481,11 +1441,11 @@
             "D. The service mode is the recommended option for creating and testing"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #129 - Topic 1: What is the purpose of the Relative To feature in Computer Vision activities?   project.  an area selection in the application.  element positions. Hide Solution Discussion",
+        "domanda": "Question #129 - Topic 1: What is the purpose of the Relative To feature in Computer Vision activities?",
         "risposte_possibili": [
             "A. To compare the size and position of UI elements in different applications.",
             "B. To synchronize the timing of multiple Computer Vision activities in the same",
@@ -1493,7 +1453,7 @@
             "D. To create a fixed relationship between Computer Vision actions and UI"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
@@ -1507,7 +1467,7 @@
         "risposta_corretta": []
     },
     {
-        "domanda": "Question #131 - Topic 1: Where is the TransactionNumber incremented in the REFramework?    workflow. SetTransactionStatus.xaml workflow. Hide Solution Discussion ",
+        "domanda": "Question #131 - Topic 1: Where is the TransactionNumber incremented in the REFramework? SetTransactionStatus.xaml workflow. Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Only in the RetryCurrentTransaction.xaml workflow.",
             "B. In the End Process state in the Finally section of the Try Catch activity.",
@@ -1515,35 +1475,35 @@
             "D. In the RetryCurrentTransaction.xaml workflow and in the"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #132 - Topic 1: Which of the following activities in UiPath Studio have the Verify Execution property available?     Hide Solution Discussion 1 Community vote distributionA (100%) ",
+        "domanda": "Question #132 - Topic 1: Which of the following activities in UiPath Studio have the Verify Execution property available?A (100%) ",
         "risposte_possibili": [
-            "A. Click activity Most Voted",
+            "A. Click activity",
             "B. Invoke workflow activity",
             "C. If activity",
             "D. Assign activity"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #133 - Topic 1: Question #133 - Topic 1: Given the following workflow:What will be the output of the Log Message activity?  Hide Solution Discussion 1 Community vote distribution B (100%) ",
+        "domanda": "Question #133 - Topic 1: Question #133 - Topic 1: Given the following workflow:  ?  Hide Solution Discussion 1 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. apple, pear, orange",
-            "B. apple, pear, orange, mango, kiwi Most Voted",
+            "B. apple, pear, orange, mango, kiwi",
             "C. “apple pear orange”, “mango kiwi”",
             "D. apple pear orange, mango kiwi"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #134 - Topic 1: In the context of a process automated using the REFramework that processes payments and sends a report using the Finance team leader's email account at the end of the day, where should the email account credentials be stored according to best practices?  Config.xisx file.  Config.xisx file.  address Config.xisx file. Hide Solution Discussion ",
+        "domanda": "Question #134 - Topic 1: In the context of a process automated using the REFramework that processes payments and sends a report using the Finance team leader's email account at the end of the day, where should the email account credentials be stored according to best practices? Config.xisx file. Hide Solution Discussion ",
         "risposte_possibili": [
             "A. In an Orchestrator Credential asset and referenced in the Assets sheet in the",
             "B. In an Orchestrator Credential asset and referenced in the Settings sheet in the",
@@ -1551,11 +1511,11 @@
             "D. In an Orchestrator Text asset and referenced in the Assets sheet in the"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #135 - Topic 1: A developer needs to choose a layout that integrates activities into a working structure during workflow file development. The selected layout should cover all possible cases and transitions while accommodating processes that cannot be easily captured by loops and if statements. Which of the following layouts is the best-suited in this case?     Hide Solution Discussion",
+        "domanda": "Question #135 - Topic 1: A developer needs to choose a layout that integrates activities into a working structure during workflow file development. The selected layout should cover all possible cases and transitions while accommodating processes that cannot be easily captured by loops and if statements. Which of the following layouts is the best-suited in this case?",
         "risposte_possibili": [
             "A. Sequence",
             "B. Flowchart",
@@ -1563,7 +1523,7 @@
             "D. Global Exception Handler"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
@@ -1575,23 +1535,23 @@
             "D. Int32"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
         "domanda": "Question #137 - Topic 1: What are the possible statuses after running any REFramework test case?    Hide Solution Discussion 4 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. MANUAL or AUTOMATIC.",
-            "B. PASS or FAIL Most Voted",
+            "B. PASS or FAIL",
             "C. EXPECTED or ACTUAL.",
             "D. SUCCESS or EXCEPTION."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #138 - Topic 1: Why is it necessary to add the UiPath virtual channel to the allow list policy for Citrix Virtual Apps and Desktops 7 2109?  access the Citrix workspace environment.  UiPath Remote Runtime from functioning correctly. UiPath automation processes on Citrix should be improved.  Runtime and the Citrix receiver. Hide Solution Discussion 1 ",
+        "domanda": "Question #138 - Topic 1: Why is it necessary to add the UiPath virtual channel to the allow list policy for Citrix Virtual Apps and Desktops 7 2109? UiPath automation processes on Citrix should be improved.  Runtime and the Citrix receiver. Hide Solution Discussion 1 ",
         "risposte_possibili": [
             "A. Because the UiPath Remote Runtime component should be enabled to",
             "B. Because custom virtual channels are blocked by default, preventing the",
@@ -1599,31 +1559,31 @@
             "D. Because a secure connection should be created between the UiPath Remote"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #139 - Topic 1: A developer plans to create a process to automate a web application using the Firefox browser. The goal is to have the robot work with the web application without relying on visual elements on screen. To achieve this goal, what option should the developer use for the Use Application/Browser activity?     Hide Solution Discussion 3Community vote distribution D (100%) ",
+        "domanda": "Question #139 - Topic 1: A developer plans to create a process to automate a web application using the Firefox browser. The goal is to have the robot work with the web application without relying on visual elements on screen. To achieve this goal, what option should the developer use for the Use Application/Browser activity?Community vote distribution D (100%) ",
         "risposte_possibili": [
             "A. Input mode = Chromium API",
             "B. User Data Folder Mode = CustomFolder",
             "C. Input mode = Simulate",
-            "D. WebDriver mode = Headless Most Voted"
+            "D. WebDriver mode = Headless"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #140 - Topic 1: What information is provided in the Descriptor Coverage sub-panel of Test Explorer?     Hide Solution Discussion 6 Community vote distribution D (100%)",
+        "domanda": "Question #140 - Topic 1: What information is provided in the Descriptor Coverage sub-panel of Test Explorer?",
         "risposte_possibili": [
             "A. Object Repository coverage",
             "B. Test data coverage",
             "C. Selector coverage",
-            "D. Activity coverage Most Voted"
+            "D. Activity coverage"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -1635,11 +1595,11 @@
             "D. By setting the Object Repository Enforced option to Yes in the System tab"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #142 - Topic 1: A developer designed a project in the REFramework. The “Config.xisx” has the following Setting entry: Assuming the default REFramework configuration, how can the developer reference the Setting in the Config variable to obtain the Setting value as a String from the dictionary?     Hide Solution Discussion ",
+        "domanda": "Question #142 - Topic 1: ?A developer designed a project in the REFramework. The “Config.xisx” has the following Setting entry: Assuming the default REFramework configuration, how can the developer reference the Setting in the Config variable to obtain the Setting value as a String from the dictionary?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Config(“OrchestratorQueueName”, “ProcessABCQueue”).ToString",
             "B. Config(“OrchestratorQueueName”).ToString",
@@ -1647,11 +1607,11 @@
             "D. Config(“ProcessABCQueue”).ToString"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #143 - Topic 1: What are the two types of events supported by Integration Service?     Hide Solution Discussion ",
+        "domanda": "Question #143 - Topic 1: ?What are the two types of events supported by Integration Service?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Local and Remote.",
             "B. Scheduled and Unscheduled.",
@@ -1659,11 +1619,11 @@
             "D. Basic and Advanced."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #144 - Topic 1: A developer extracts a date from an email. The date will always be in the same format and always from the past. Some examples of this format are: “3 Mar 2023”, “20 Nov 2021”. The name of the variable where the date is saved is DateString. What expression should the developer use to check if the extracted date is within the last 7 days?  Cultureinfo.InvariantCulture)).Days <7  Cultureinfo. InvariantCulture)). AddDays(-7) > 0 Cultureinfo. InvariantCulture)).Days < 7 Most Voted  Hide Solution Discussion 5 Community vote distribution C (83%) A (17%) ",
+        "domanda": "Question #144 - Topic 1: A developer extracts a date from an email. The date will always be in the same format and always from the past. Some examples of this format are: “3 Mar 2023”, “20 Nov 2021”. The name of the variable where the date is saved is DateString. What expression should the developer use to check if the extracted date is within the last 7 days? Cultureinfo. InvariantCulture)).Days < 7 Most Voted  Hide Solution Discussion 5 Community vote distribution C (83%) A (17%) ",
         "risposte_possibili": [
             "A. (DateTime.Now - DateTime. ParseExact(DateString, “dd MMM yyyy”,",
             "B. (DateTime.Now - DateTime.ParseExact(DateString, “dd MMM yyyy”,",
@@ -1671,19 +1631,19 @@
             "D. DateTime.Parse(DateTime.Now - DateString).Days <7"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #145 - Topic 1: Question #145 - Topic 1: Question #145 - Topic 1: Given the following conditional breakpoint with count = 0:Conditional breakpoint settings:How many times will UiPath be displayed in the Output panel before the process goes into a Paused state in Debug mode?     Hide Solution Discussion 6 Community vote distribution A (89%)11% ",
+        "domanda": "Question #145 - Topic 1: Question #145 - Topic 1: Question #145 - Topic 1: Given the following conditional breakpoint with count = 0:  ?11% ",
         "risposte_possibili": [
-            "A. 4 Most Voted",
+            "A. 4",
             "B. 3",
             "C. 2",
             "D. 5"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -1695,7 +1655,7 @@
             "D. To establish the exit actions when moving out of a state."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -1707,11 +1667,11 @@
             "D. Process Start Trigger"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #148 - Topic 1: Question #148 - Topic 1: A developer needs to design a process using the REFramework, but without Orchestrator Queues. Which is the correct order of actions the developer needs to do in the Get Transaction Data state in this case?  workflow. 2. Add a Read Range activity in GetTransactionData workflow to read the data from a local Excel file. 3. Add the logic required to read the data source only one time. 4. Add the logic required to retrieve only one row from read data each time. 5. Add the logic required to check if all rows/transaction items from the read data have been processed.  workflow. 2. Add a Read Range activity in GetTransactionData workflow to read the datafrom a local Excel file. 3. Add the logic required to read the data source only one time. 4. Add the logic required to retrieve only one row from read data each time.  workflow. 2. Add a Read Row activity in GetTransactionData workflow to read the data from a local Excel file. 3. Add the logic required to read the data source only one time. 4. Add the logic required to retrieve only one row from read data each time. 5. Add the logic required to check if all rows/transaction items from the read data have been processed. Most Voted  workflow. 2. Add a Read Row activity in GetTransactionData workflow to read the data from a local Excel file. 3. Add the logic required to read the data source only one time. 4. Add the logic required to check if all rows/transaction items from the read data have been processed. Hide Solution Discussion 5 Community vote distribution A (67%)C (33%) ",
+        "domanda": "Question #148 - Topic 1: Question #148 - Topic 1: A developer needs to design a process using the REFramework, but without Orchestrator Queues. Which is the correct order of actions the developer needs to do in the Get Transaction Data state in this case?C (33%) ",
         "risposte_possibili": [
             "A. 1. Remove the Get Transaction Item activity from GetTransactionData",
             "B. 1. Remove the Get Transaction Item activity from GetTransactionData",
@@ -1719,23 +1679,23 @@
             "D. 1. Remove the Get Transaction Item activity from GetTransactionData"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
         "domanda": "Question #149 - Topic 1: Question #149 - Topic 1: Based on the following exhibit, which output is displayed in the Output panel if Step Out is clicked on the Debug ribbon tab of UiPath Studio?Hide Solution Discussion 4 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. UiPath RPA Automation Most Voted",
+            "A. UiPath RPA Automation",
             "B. Automation",
             "C. Automation RPAUiPath RPA",
             "D. UiPath RPA"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #150 - Topic 1: Question #150 - Topic 1: Question #150 - Topic 1: What functionality does the Step Out action offer when a developer is reviewing a process during debugging, as shown in the exhibit?     Hide Solution DiscussionWelcome to ExamTopics  7c6adaa |  Logout       - Expert Verified, Online, Free. Mail Us team@examtopics.com  Home Popular Exams                  View All Exams   Training Courses  NEW   Forum Contact   About You have Contributor Access to UiADPv1. Thank you for supporting ExamTopics! UiPath UiADPv1 Exam Actual Questions (P. 4) The questions for UiADPv1 were last updated on Nov. 13, 2024.  Viewing page 4 out of 4 pages.  Viewing questions 151-194 out of 194 questions Custom View Settings ",
+        "domanda": "Question #150 - Topic 1: Question #150 - Topic 1: Question #150 - Topic 1: What functionality does the Step Out action offer when a developer is reviewing a process during debugging, as shown in the exhibit? Contact   About You have Contributor Access to UiADPv1. Thank you for supporting ExamTopics! UiPath UiADPv1 Exam Actual Questions (P. 4) The questions for UiADPv1 were last updated on Nov. 13, 2024.  Viewing page 4 out of 4 pages.  Viewing questions 151-194 out of 194 questions Custom View Settings ",
         "risposte_possibili": [
             "A. Re-executes the activity which threw an exception.",
             "B. Executes only one activity at a time and then pauses the execution.",
@@ -1743,11 +1703,11 @@
             "D. Executes activities in the current container and then pauses the execution."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #151 - Topic 1: What is a prerequisite for performing Remote Debugging using an Unattended Robot connection?     Hide Solution Discussion ",
+        "domanda": "Question #151 - Topic 1: ?What is a prerequisite for performing Remote Debugging using an Unattended Robot connection?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Studio, the remote robot have the same version.",
             "B. The same user must be signed in Studio and the remote robot.",
@@ -1755,11 +1715,11 @@
             "D. TCP/IP connectivity exists between the Studio machine and the remote machine."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #152 - Topic 1: What is the default OCR engine used in CV Screen Scope?     Hide Solution Discussion",
+        "domanda": "Question #152 - Topic 1: What is the default OCR engine used in CV Screen Scope?",
         "risposte_possibili": [
             "A. Microsoft OCR",
             "B. UiPath Screen OCR",
@@ -1767,7 +1727,7 @@
             "D. Tesseract OCR"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -1779,7 +1739,7 @@
             "D. Entry and Exit"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -1791,11 +1751,11 @@
             "D. Export test results, group tests together, analyze activity coverage."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #155 - Topic 1: In a UiPath development scenario, which type of process design would be the most appropriate for an automation task that executes actions in a straightforward progression without iteration or branching?     Hide Solution Discussion 2Community vote distribution B (100%) ",
+        "domanda": "Question #155 - Topic 1: In a UiPath development scenario, which type of process design would be the most appropriate for an automation task that executes actions in a straightforward progression without iteration or branching?Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Sequential Process",
             "B. Linear Process",
@@ -1803,7 +1763,7 @@
             "D. Transactional Process"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -1815,7 +1775,7 @@
             "D. Mock Testing"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -1827,11 +1787,11 @@
             "D. View on Monitoring and Edit on Jobs."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #158 - Topic 1: Which of the following examples accurately demonstrates the correct usage of AI Computer Vision features in a UiPath project?  desktop application with low quality or scaling issues.  string and displaying the result.  store the output in a string variable  recognize specific patterns in data. Hide Solution Discussion ",
+        "domanda": "Question #158 - Topic 1: ?Which of the following examples accurately demonstrates the correct usage of AI Computer Vision features in a UiPath project?  desktop application with low quality or scaling issues.  string and displaying the result.  store the output in a string variable  recognize specific patterns in data. Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Employing AI Computer Vision to identify and interact with Ul elements in a remote",
             "B. Applying AI Computer Vision to perform sentiment analysis on a provided text",
@@ -1839,11 +1799,11 @@
             "D. Utilizing AI Computer Vision to train a custom machine learning model to"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #159 - Topic 1: A developer has designed a Performer process using the REFramework template in UiPath Studio. The process is published to an Orchestrator folder named \"FolderA\" and a job is created in Orchestrator from the package. The value of the OrchestratorQueueName setting in \"Config.xlsx\" is \"QueueA\" and the value of OrchestratorQueueFolder is ''FolderA”.The developer runs the job from Orchestrator with the following argument values: in_OrchestratorQueueName = “QueueB\" in_OrchestratorQueueFolder = empty value Which queue will be consumed by the robot?     Hide Solution Discussion 1 ",
+        "domanda": "Question #159 - Topic 1: A developer has designed a Performer process using the REFramework template in UiPath Studio. The process is published to an Orchestrator folder named \"FolderA\" and a job is created in Orchestrator from the package. The value of the OrchestratorQueueName setting in \"Config.xlsx\" is \"QueueA\" and the value of OrchestratorQueueFolder is ''FolderA”.  ?The developer runs the job from Orchestrator with the following argument values: in_OrchestratorQueueName = “QueueB\" in_OrchestratorQueueFolder = empty value Which queue will be consumed by the robot?     Hide Solution Discussion 1 ",
         "risposte_possibili": [
             "A. QueueA from FolderA.",
             "B. QueueA from Shared.",
@@ -1851,7 +1811,7 @@
             "D. QueueB from Shared."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -1863,7 +1823,7 @@
             "D. Foreground unattended, Background unattended, Attended, Development."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
@@ -1875,11 +1835,11 @@
             "D. Deselect at end"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #162 - Topic 1: The following table is stored in a variable called \"dt\". Which query can be used to extract the table column names and store them in a list?     Hide Solution Discussion ",
+        "domanda": "Question #162 - Topic 1: ?The following table is stored in a variable called \"dt\". Which query can be used to extract the table column names and store them in a list?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. dt.Columns.Select(function(x) x.ColumnName).ToList()",
             "B. dt.Columns.Cast(Of Datacolumn).Select(function(col) col).ToList()",
@@ -1887,11 +1847,11 @@
             "D. dt.Columns.Cast(Of Datacolumn).Select(function(x) x.ColumnName).ToList()"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #163 - Topic 1: In the context of a UiPath State Machine, what is the primary purpose of the Exit action in a state?  stage.    Hide Solution Discussion ",
+        "domanda": "Question #163 - Topic 1: ?In the context of a UiPath State Machine, what is the primary purpose of the Exit action in a state?  stage.    Hide Solution Discussion ",
         "risposte_possibili": [
             "A. To execute the final actions of the current state before transitioning to the next",
             "B. To manually stop the state machine's execution.",
@@ -1899,7 +1859,7 @@
             "D. To define the conditions upon which a state transition should occur."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
@@ -1911,23 +1871,23 @@
             "D. System ApplicationException"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #165 - Topic 1: Question #165 - Topic 1: While troubleshooting a process developed using the Robotic Enterprise (RE) Framework, you have placed a breakpoint at the \"Invoke InitAllSettings\" workflow activity.Given the current state of the Executor, what will occur when you click on the Step Over button?  Hide Solution Discussion 2 Community vote distribution A (100%) ",
+        "domanda": "Question #165 - Topic 1: Question #165 - Topic 1: While troubleshooting a process developed using the Robotic Enterprise (RE) Framework, you have placed a breakpoint at the \"Invoke InitAllSettings\" workflow activity.  ?  Hide Solution Discussion 2 Community vote distribution A (100%) ",
         "risposte_possibili": [
-            "A. Executor directs to the \"If in_OrchestratorQ...\" activity Most Voted",
+            "A. Executor directs to the \"If in_OrchestratorQ...\" activity",
             "B. Executor directs to the \"First Run\" sequence",
             "C. Executor directs to the first InitAllSettings workflow activity",
             "D. Executor directs to the first activity outside \"If first run, read local configuration\""
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #166 - Topic 1: A developer needs to use the REFramework in order to implement a linear process. Which value should be set to “out_TransactionItem” the first time when it enters the Get Transaction Data state?  is not transactional.   this value should be taken from \"Config.xlsx\".  time in the Get Transaction Data state.Hide Solution Discussion 1 ",
+        "domanda": "Question #166 - Topic 1: A developer needs to use the REFramework in order to implement a linear process. Which value should be set to “out_TransactionItem” the first time when it enters the Get Transaction Data state?Hide Solution Discussion 1 ",
         "risposte_possibili": [
             "A. The process will not enter the Get Transaction Data state because a linear process",
             "B. It should be set to the next queue item in order to be, further on, processed.",
@@ -1935,7 +1895,7 @@
             "D. It should be set to Nothing because a linear process should not enter the second"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -1947,11 +1907,11 @@
             "D. Insert a Log Message before each activity with a breakpoint."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #168 - Topic 1: In the Global Exception Handler, which arguments are provided by default and should not be removed?     Hide Solution Discussion ",
+        "domanda": "Question #168 - Topic 1: ?In the Global Exception Handler, which arguments are provided by default and should not be removed?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. errorInfo with the “In” direction result with the “In” direction",
             "B. errorInfo with the “Out” direction result with the “In/Out” direction",
@@ -1959,11 +1919,11 @@
             "D. errorInfo with the “In” direction result with the “In/Out” direction"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #169 - Topic 1: Given the following variables assignments:What will the output of the following conditional be: outputX = If(Clnt(doubleX + CDbl(intX) + CDbl(stringX)) > 38.30, 1, 0)     Hide Solution Discussion ",
+        "domanda": "Question #169 - Topic 1: Given the following variables assignments:  ?What will the output of the following conditional be: outputX = If(Clnt(doubleX + CDbl(intX) + CDbl(stringX)) > 38.30, 1, 0)     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. 1",
             "B. Compilation error",
@@ -1971,18 +1931,11 @@
             "D. 0"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #170 - Topic 1: Question #170 - Topic 1: DRAG DROP - On 10/04/2023 five Queue Items were added to a queue. What is the appropriate processing sequence for Queue Items based on their properties? Instructions: Drag the Queue Item found on the \"Left\" and drop on the correct Process Sequence found on the \"Right\". Hide Solution Discussion 1",
-        "risposte_possibili": [],
-        "risposta_corretta": [
-            ""
-        ]
-    },
-    {
-        "domanda": "Question #171 - Topic 1: Which of the options below is not an action in Test Explorer?     Hide Solution Discussion",
+        "domanda": "Question #171 - Topic 1: Which of the options below is not an action in Test Explorer?",
         "risposte_possibili": [
             "A. Run Failed Test Cases",
             "B. Run All In View",
@@ -1990,7 +1943,7 @@
             "D. Run Selected"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
@@ -2002,11 +1955,11 @@
             "D. Suspended"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #173 - Topic 1: Which of the following is a tag in a selector?     Hide Solution Discussion ",
+        "domanda": "Question #173 - Topic 1: ?Which of the following is a tag in a selector?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. aaname=‘FirstName’",
             "B.",
@@ -2014,11 +1967,11 @@
             "D. class=‘down-chevron set-font’"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #174 - Topic 1: How are custom log fields used in the REFramework?  updates.  the default QueueItem type.  personal data of users.  each transaction for reporting and troubleshooting purposes.Hide Solution Discussion ",
+        "domanda": "Question #174 - Topic 1: How are custom log fields used in the REFramework?Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Custom log fields are used to automatically retry failed transactions with real-time",
             "B. Custom log fields are used to define the variable types for transactions, replacing",
@@ -2026,7 +1979,7 @@
             "D. Custom log fields are included in log messages and used to add more data about"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -2038,23 +1991,23 @@
             "D. Perform Remote Debugging is only possible when the automation project does not"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #176 - Topic 1: What are the five severity levels of Orchestrator alerts?     Hide Solution Discussion 2 Community vote distribution B (100%) ",
+        "domanda": "Question #176 - Topic 1: ?What are the five severity levels of Orchestrator alerts?     Hide Solution Discussion 2 Community vote distribution B (100%) ",
         "risposte_possibili": [
             "A. Info, Success, Warning, Error, Critical.",
-            "B. Info, Success, Warn, Error, Fatal. Most Voted",
+            "B. Info, Success, Warn, Error, Fatal.",
             "C. Information, Complete, Warning, Error, Failure.",
             "D. Info, Completed, Warning, Error, Fatal."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #177 - Topic 1: What are the differences between the properties Input mode: Simulate and Input mode: Window Messages on a Type Into activity?  Input mode: Window Messages is the fastest and supports hotkeys. Input mode: Window Messages runs in the background and auto-empties the field.  Input mode: Window Messages supports hotkeys.  Input mode: Window Messages is compatible with all applications. Hide Solution Discussion ",
+        "domanda": "Question #177 - Topic 1: What are the differences between the properties Input mode: Simulate and Input mode: Window Messages on a Type Into activity? Input mode: Window Messages runs in the background and auto-empties the field.  Input mode: Window Messages supports hotkeys.  Input mode: Window Messages is compatible with all applications. Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Input mode: Simulate works best with web applications.",
             "B. Input mode: Simulate is compatible with all applications.",
@@ -2062,11 +2015,11 @@
             "D. Input mode: Simulate is the fastest and supports hotkeys."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #178 - Topic 1: Which of the following is an accurate example of using LINQ for querying data in a UiPath process?  listOfStrings.Where(Function(x) x = \"UiPath\").ToList()  listOfIntegers.FindDuplicates().ToList()  dataTable.OrderBy(Function(x) x.ToString).CopyToDataTable()  dataTable1.Merge(dataTable2).CopyToDataTable()Hide Solution Discussion ",
+        "domanda": "Question #178 - Topic 1: Which of the following is an accurate example of using LINQ for querying data in a UiPath process?Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Using LINQ to filter a list of strings containing only \"UiPath\" by writing:",
             "B. Applying LINQ to find duplicates in a list of integers by writing:",
@@ -2074,14 +2027,7 @@
             "D. Executing LINQ to merge two Data Tables by writing:"
         ],
         "risposta_corretta": [
-            "A 🗳"
-        ]
-    },
-    {
-        "domanda": "Question #179 - Topic 1: DRAG DROP - A developer plans to build an automation process using the REFramework with Orchestrator queues. Based on UiPath best practice, what is the recommended sequence of steps to update the template and create/update Queues and Values? Instructions: Drag the Description found on the left and drop on the correct Step Sequence found on the right. Hide Solution Discussion",
-        "risposte_possibili": [],
-        "risposta_corretta": [
-            ""
+            "A"
         ]
     },
     {
@@ -2093,11 +2039,11 @@
             "D. Entry actions, Exit actions, Guard conditions, and Transitions."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #181 - Topic 1: Which activity from the Microsoft 365 package should be used to retrieve the DriveItem ID for a Sharepoint URL?     Hide Solution Discussion",
+        "domanda": "Question #181 - Topic 1: Which activity from the Microsoft 365 package should be used to retrieve the DriveItem ID for a Sharepoint URL?",
         "risposte_possibili": [
             "A. Get Group",
             "B. Download File",
@@ -2105,7 +2051,7 @@
             "D. Get File/Folder"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
@@ -2117,11 +2063,11 @@
             "D. It facilitates communication between remote applications and the dedicated UiPath"
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #183 - Topic 1: When building an automation for a car rental company as part of a larger project initiative, a developer should follow the high-level steps: 1. Log in to the company's desktop application. 2. For each Queue Item: a. Navigate to the Reservations section from the Requests section. b. Add the reservation data to the Reservations section. c. Close the current reservation. 3. Log out and close the company's application. What step should be mocked from the end-to-end test case in order to retrieve test data?     Hide Solution Discussion ",
+        "domanda": "Question #183 - Topic 1: ?When building an automation for a car rental company as part of a larger project initiative, a developer should follow the high-level steps: 1. Log in to the company's desktop application. 2. For each Queue Item: a. Navigate to the Reservations section from the Requests section. b. Add the reservation data to the Reservations section. c. Close the current reservation. 3. Log out and close the company's application. What step should be mocked from the end-to-end test case in order to retrieve test data?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. InitAllApplications",
             "B. GetTransactionData",
@@ -2129,11 +2075,11 @@
             "D. SetTransactionStatus"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #184 - Topic 1: How do you subtract a specific TimeSpan from \"Today\" in VB.NET?     Hide Solution Discussion ",
+        "domanda": "Question #184 - Topic 1: ?How do you subtract a specific TimeSpan from \"Today\" in VB.NET?     Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Today.SubtractUsingDate(-TimeSpan)",
             "B. Today.Subtract(TimeSpan)",
@@ -2141,11 +2087,11 @@
             "D. DateTime.SubtractSpanFrom(Today, TimeSpan)"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #185 - Topic 1: Which features does the Connector Builder for Integration Service support?  only, building a connector from an API definition only.  and API Key, building a connector from an API definition or from scratch.  building a connector from a Postman collection only. OAuth 2.0 and Personal Access Token, building a connector from a Swagger definition only. Hide Solution Discussion ",
+        "domanda": "Question #185 - Topic 1: Which features does the Connector Builder for Integration Service support? OAuth 2.0 and Personal Access Token, building a connector from a Swagger definition only. Hide Solution Discussion ",
         "risposte_possibili": [
             "A. REST and SOAP APIs with JSON and XML payloads, OAuth 2.0 authentication",
             "B. REST APIs with JSON payload, various authentication types including OAuth 2.0",
@@ -2153,11 +2099,11 @@
             "D. REST and SOAP APIs with JSON payload, various authentication types including"
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #186 - Topic 1: A developer implemented a process using the REFramework and an Orchestrator queue. The \"OrchestratorQueueFolder\" was defined in the \"Config.xlsx\" file, but the folder does not exist in Orchestrator. What is the behavior at runtime?  queue folder is not found, and then the process is stopped.  queue folder is not found, and then the process is stopped.  continues.  process continues.Hide Solution Discussion ",
+        "domanda": "Question #186 - Topic 1: A developer implemented a process using the REFramework and an Orchestrator queue. The \"OrchestratorQueueFolder\" was defined in the \"Config.xlsx\" file, but the folder does not exist in Orchestrator. What is the behavior at runtime?Hide Solution Discussion ",
         "risposte_possibili": [
             "A. The process throws an exception in the \"Get Transaction Data” state because the",
             "B. The process throws an exception in the \"Process Transaction\" state because the",
@@ -2165,11 +2111,11 @@
             "D. A warning message stating that the queue folder is missing is logged, and then the"
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #187 - Topic 1: Question #187 - Topic 1: Question #187 - Topic 1: When developing a process, you were provided with two data tables, \"DT1\" and \"DT2\", as shown below: The process documentation specifies that the two data tables need to be manipulated in order to reflect the following \"DT2\":How should the properties of the Merge Data Table activity be configured? Hide Solution Discussion 1 ",
+        "domanda": "Question #187 - Topic 1: Question #187 - Topic 1: Question #187 - Topic 1: When developing a process, you were provided with two data tables, \"DT1\" and \"DT2\", as shown below: The process documentation specifies that the two data tables need to be manipulated in order to reflect the following \"DT2\":  ? Hide Solution Discussion 1 ",
         "risposte_possibili": [
             "A.",
             "B.",
@@ -2177,11 +2123,11 @@
             "D."
         ],
         "risposta_corretta": [
-            "A 🗳"
+            "A"
         ]
     },
     {
-        "domanda": "Question #188 - Topic 1: In the context of UiPath Orchestrator, what is the primary purpose of the Monitoring feature?     anomalies.Hide Solution Discussion ",
+        "domanda": "Question #188 - Topic 1: In the context of UiPath Orchestrator, what is the primary purpose of the Monitoring feature?Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Handling version control and collaboration among team members",
             "B. Facilitating the design and deployment of automation workflows.",
@@ -2189,11 +2135,11 @@
             "D. Consolidating event logs and records related to executed tasks and runtime"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #189 - Topic 1: Question #189 - Topic 1: Question #189 - Topic 1: Assume we have the Verify Expression with Operator activity from the UiPath.Testing.Activities package with the properties configured as follows:The activity is used within a Try-Catch activity. The Catch block is set to System.Exception and UiPath.Testing.Exception.TestingActivitiesException as shown in the screenshot below:During the execution of the sequence shown above, which block from the Try-Catch activity will be entered first, after the Verify Expression with Operator activity is executed?  Try-Catch activity.   Hide Solution Discussion ",
+        "domanda": "Question #189 - Topic 1: Question #189 - Topic 1: Question #189 - Topic 1: Assume we have the Verify Expression with Operator activity from the UiPath.Testing.Activities package with the properties configured as follows:  ?   Hide Solution Discussion ",
         "risposte_possibili": [
             "A. The TestingActivitiesException sequence from the Catches block within the",
             "B. None of the other blocks within the Try-Catch activity will be executed.",
@@ -2201,11 +2147,11 @@
             "D. The Finally block within the Try-Catch activity."
         ],
         "risposta_corretta": [
-            "B 🗳"
+            "B"
         ]
     },
     {
-        "domanda": "Question #190 - Topic 1: Under what conditions will a trigger be automatically disabled upon failure in Integration Service?  not start for the last 25 events.  not start for the last 50 events.  not start for the last 100 events.  does not start for the last 200 events. Hide Solution Discussion 1Community vote distribution C (100%) ",
+        "domanda": "Question #190 - Topic 1: Under what conditions will a trigger be automatically disabled upon failure in Integration Service?Community vote distribution C (100%) ",
         "risposte_possibili": [
             "A. When the job is not able to start after 3 attempts for a single event or the job does",
             "B. When the job is not able to start after 5 attempts for a single event or the job does",
@@ -2213,11 +2159,11 @@
             "D. When the job is not able to start after 20 attempts for a single event or the job"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #191 - Topic 1: While developing a test case using UiPath.Testing.Activities, which testing activity enables to include another activity within its body?     Hide Solution Discussion 2 Community vote distributionA (50%) D (50%) ",
+        "domanda": "Question #191 - Topic 1: While developing a test case using UiPath.Testing.Activities, which testing activity enables to include another activity within its body?A (50%) D (50%) ",
         "risposte_possibili": [
             "A. Verify Control Attribute",
             "B. Verify Range",
@@ -2225,11 +2171,11 @@
             "D. Verify Expression With Operator"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #192 - Topic 1: Question #192 - Topic 1: Question #192 - Topic 1: Question #192 - Topic 1: Question #192 - Topic 1: A developer is using the REFramework template to automate a process. In SetTransactionStatus file, the developer decides to remove the Remove Log Fields activity and to add an additional Log Message activity, as shown below:The configuration for Add transaction log fields (Success) activity is shown below:The developer runs the process and notices that the argument values for the first transaction are the following: Which of the following Log Message Details will be displayed when executing the activity Log Message Completed for the first transaction, considering it is successful?  Hide Solution Discussion 1",
+        "domanda": "Question #192 - Topic 1: Question #192 - Topic 1: Question #192 - Topic 1: Question #192 - Topic 1: Question #192 - Topic 1: A developer is using the REFramework template to automate a process. In SetTransactionStatus file, the developer decides to remove the Remove Log Fields activity and to add an additional Log Message activity, as shown below:  ?",
         "risposte_possibili": [
             "A.",
             "B.",
@@ -2237,11 +2183,11 @@
             "D."
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     },
     {
-        "domanda": "Question #193 - Topic 1: Question #193 - Topic 1: Suppose you have the following workflow that verifies if the text value of an element is equal to \"Work Items\": The configuration for the Verify Control Attribute and Get Text activities is shown below:The element and its selector are highlighted in the image below:Taking into consideration that the page shown above will be present on screen at execution time, what will be the result of the Verify Control Attribute activity?   property of the Get text activity.   Hide Solution Discussion ",
+        "domanda": "Question #193 - Topic 1: Question #193 - Topic 1: Suppose you have the following workflow that verifies if the text value of an element is equal to \"Work Items\": The configuration for the Verify Control Attribute and Get Text activities is shown below:  ?Taking into consideration that the page shown above will be present on screen at execution time, what will be the result of the Verify Control Attribute activity?   property of the Get text activity.   Hide Solution Discussion ",
         "risposte_possibili": [
             "A. Verification will be failed because the actual value is different than expected value.",
             "B. An exception will be thrown because there is no variable set in the Save to",
@@ -2249,11 +2195,11 @@
             "D. Verification will be passed."
         ],
         "risposta_corretta": [
-            "D 🗳"
+            "D"
         ]
     },
     {
-        "domanda": "Question #194 - Topic 1: Question #194 - Topic 1: Question #194 - Topic 1: Question #194 - Topic 1: Which of the following examples accurately demonstrates using LINQ to perform data operations in a UiPath process?  listOfIntegers.ToJSON().ToList()  specific condition by writing dataTable.Split(\"ColumnName = 'Condition'\").CopyToDataTable() dataTable.AsEnumerable().Where(Function(row) row(\"ColumnName\").ToString.Contains(\"Value\")).Copy ToDataTable))  listOfStrings.Concatenate(\"String_1\", \"String_2\").ToList() Hide Solution Discussion Previous Questions Get IT Certification Unlock free, top-quality video courses on ExamTopics with a simple registration. Elevate your learning journey with our expertly curated content. Register now to access a diverse range of educational resources designed for your success. Start learning today with ExamTopics! Start Learning for free Social Media Facebook , Twitter YouTube , Reddit Pinterest Email Address team@examtopics.com www.examtopics.comWe are the biggest and most updated IT certification exam material website. Using our own resources, we strive to strengthen the IT professionals community for free. RECENT ARTICLES 13 June New Version GCP Professional Cloud Architect Certiﬁcate & Helpful Information IT Certifications 20 September The 5 Most In-Demand Project Management Certiﬁcations of 2019 IT Certifications SITEMAP  Home  All Exams  Examtopics PRO  News  About Contact  Forum  DMCA  Logout  Terms & Privacy Policy     © 2024 ExamTopics ExamTopics doesn't offer Real Microsoft Exam Questions. ExamTopics doesn't offer Real Amazon Exam Questions. ExamTopics Materials do not contain actual questions and answers from Cisco's Certification Exams. CFA Institute does not endorse, promote or warrant the accuracy or quality of ExamTopics. CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.",
+        "domanda": "Question #194 - Topic 1: Question #194 - Topic 1: Question #194 - Topic 1: Question #194 - Topic 1: Which of the following examples accurately demonstrates using LINQ to perform data operations in a UiPath process?",
         "risposte_possibili": [
             "A. Applying LINQ to convert a list of integers to a JSON format by writing",
             "B. Utilizing LINQ to split a DataTable into multiple smaller DataTables based on a",
@@ -2261,7 +2207,7 @@
             "D. Employing LINQ to concatenate two strings in a list by writing"
         ],
         "risposta_corretta": [
-            "C 🗳"
+            "C"
         ]
     }
 ]
